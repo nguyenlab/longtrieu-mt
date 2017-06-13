@@ -3,9 +3,6 @@
 HYP=data/filename.hyp
 REF=data/filename.ref
 
-source ~/export.sh
-source ~/theano-env/bin/activate
-
 export JAVA_HOME=/path/jdk1.8.0_40
 export PATH=/path/jdk1.8.0_40/bin:$PATH
 
