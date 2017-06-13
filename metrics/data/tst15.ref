@@ -1,0 +1,1080 @@
+trí thông minh - - nó là gì vậy ?
+nếu chúng ta nhìn lại lịch sử xem trí thông minh được nhìn nhận thế nào , ta có thể tham khảo câu nói nổi tiếng của Edsger Dijsktra : " hỏi rằng liệu máy có thể suy nghĩ được hay không cũng thú vị như hỏi liệu một chiếc tàu ngầm có bơi được hay không. "
+khi Edsger Dijstra viết câu này , ông viết như một lời chỉ trích những người đi tiên phong trong khoa điện toán , như Alan Turing .
+Tuy nhiên , nếu nhìn lại và nghĩ xem đâu là phát kiến có sức mạnh cho phép ta tạo nên chiếc máy có thể bơi , chiếc máy có thể bay , sẽ nhận ra rằng chỉ khi ta hiểu được về cơ chế của việc bơi và sự bay thì mới có thể làm ra những máy móc đó .
+vì vậy , một vài năm trước , Tôi đã thực hiện một chương trình nghiên cứu cơ chế vật lý cơ bản làm nền tảng cho trí thông minh .
+ta hãy lùi một bước .
+bắt đầu một thí nghiệm về tư duy .
+giả sử quý vị thuộc một chủng người ngoài hành tinh không biết gì về sinh học Trái đất , về khoa thần kinh , hay trí thông minh Trái Đât , nhưng có chiếc kính viễn vọng rất tuyệt giúp quan sát Trái Đất , và đời quý vị rất dài nên có thể quan sát hàng triệu , thậm chí hàng tỉ năm .
+và thấy được một hiệu ứng kì lạ .
+quý vị sẽ thấy rằng , qua hàng thiên nhiên kỉ , trái đất đã liên tục va chạm với những thiên thạch cho đến một thời điểm tại đó , ứng những năm của chúng ta , khoảng 2000 năm sau CN thời điểm những thiên thạch đang bay theo hướng sắp va vào trái đất hẳn sẽ va vào trái Đất thì chợt bị làm chệch hướng hoặc nổ tung trước khi va .
+tất nhiên , là một người Trái Đất , chúng ta hiểu lí do có thể do chúng ta cố bảo vệ chính mình .
+chúng ta đang cố gắng ngăn chặn cuộc va chạm .
+nhưng nếu quý vị là một người ngoài hành tinh không hiểu về chuyện này , không có bất kì khái niệm gì về trí thông minh Trái Đất , quý vị sẽ buộc phải tiếp nhận một giả thuyết vật lí giải thích cách sao vào thời điểm nào đó , những thiên thạch lẽ ra phá hủy bề mặt của một hành tinh lại dừng lại cách bí ẩn .
+và tôi cho rằng đây cũng chính là nhu cầu tìm hiểu về bản chất vật lý của trí thông minh .
+vì vậy trong chương trình này được thực hiện cách đây vài năm , Tôi đã xem xét nhiều vấn đề có tính liên nghành khoa học phối hợp nhiều khoa học khác nhau , và tôi thấy chúng đều chỉ ra một cơ chế chung duy nhất của sự thông minh .
+lấy tất cả những tuyến đoạn khác nhau này gộp chúng lại với nhau , tôi tự hỏi từ nhiều năm về trước có một cơ chế nào cho trí thông minh làm thừa số chung cho những chuỗi khác nhau này ?
+có chăng một phương trình cho trí thông minh ?
+tôi tin , câu trả lời là Có. [ " F = T ∇ Sτ " ] Cái ta thấy đây có thể là cái tương đương gần nhất với một E = mc ² một công thức cho trí thông minh mà tôi đã thấy .
+cái ta thấy ở đây là một trình bày tương xứng cho thấy trí thông minh là một lực , F , hành động để tối đa hóa tự do hành động tương lai
+nó hành động để tối đa hóa tự do hành động tương lai , hoặc giữ cho các lựa chọn được để ngỏ , với một cường độ T , với sự đa dạng của các tương lai có thể đạt tới , S trong một ngưỡng thời gian tương lai nào đó , tau .
+Tóm lại , trí thông minh không thích bị mắc kẹt .
+trí thông minh cố gắng tối đa hóa tự do hành động tương lai và giữ các lựa chọn để ngỏ .
+như vậy , với phương trình này , câu hỏi tiếp theo là , ta dùng nó để làm gì ?
+nó dự báo được đến đâu ?
+nó có dự báo được sự thông minh ở tầm con người không ?
+nó có dự báo được trí thông minh của máy không ?
+tôi sẽ cho quý vị xem một video ta sẽ thấy những ứng dụng kỳ diệu của phương trình này .
+điều gì xảy ra nếu mối liên hệ vũ trụ hiện thấy này giữa entropy và trí thông minh ẩn chứa một mối liên hệ sâu sắc hơn ?
+điều gì xảy ra nếu hành vi thông minh không chỉ tương quan , với sự tạo ra entropy dài hạn , mà trên thực tế nảy sinh trực tiếp từ chính nó ?
+để tìm cho ra , ta phải phát triển một máy cài phần mềm đặt tên là Entropica , được thiết kế để tối đa hóa việc tạo ra entropy dài hạn của bất kỳ hệ thống nào mà nó dự vào .
+kỳ lạ thay , Entropica có khả năng vượt qua phép thử trí thông minh của loài vật và chơi trò chơi do người sáng chế , thậm chí máy kiếm được tiền trên thị trường chứng khoán , mà không cần được hướng dẫn phải làm thế nào .
+đây là vài ví dụ về hoạt động của Entropica .
+giống như một người đứng thẳng không ngã , đây ta xem máy Entropica tự động dùng một chiếc xe đi thăng bằng trên cây sào .
+đây là một việc xuất sắc vì chúng ta không đề ra cho Entropica một mục tiêu .
+nó tự quyết định lấy sẽ giữ thăng bằng trên thanh gỗ .
+khả năng giữ thăng bằng này có một ứng dụng cho khoa chế tạo robot hình người. và công nghệ trợ giúp con người .
+hệt như một số động vật có thể dùng các vật thể trong môi trường làm công cụ để vươn ra trong một không gian hẹp đây ta thấy máy Entropica , vẫn dựa vào tài trí của mình , có khả năng di chuyển một đĩa lớn tượng trưng cho một con vật dịch chuyển đó khiến cho một đĩa nhỏ , tượng trưng cho một công cụ , vươn ra trong không gian giới hạn nắm lấy cái đĩa thứ ba và thả chiếc đĩa thứ ba từ vị trí cố định ban đầu của nó .
+khả năng sử dụng công cụ này có ứng dụng cho công nghệ chế tạo và nông nghiệp thông minh .
+thêm nữa , giống như một số con vật có thể hợp tác với nhau để kéo các đầu dây cùng một lúc để có thức ăn , ở đây ta thấy Entropica có thể làm được một mô hình công việc đại loại như vậy .
+khả năng hợp tác này có ứng dụng lý thú cho quy hoạch kinh tế và nhiều lĩnh vực khác .
+Entropica được ứng dụng rộng rãi trong nhiều linh vực khác nhau .
+ví dụ , ở đây ta thấy nó chơi thành công trò chơi của quả ping pông , thể hiện tiềm năng của nó trong game .
+ở đây ta lại thấy Entropica có khả năng phối hợp nhiều liên hệ mới trong mạng xã hội khi quan hệ bạn bè đang dễ bị quên lãng nó đã thành công trong việc giữ cho mạng liên lạc được duy trì .
+khả năng phối hợp mạng lưới này cũng có ứng dụng trong y tế , cơ khí chế tạo và tình báo .
+ở đây ta thấy Entropica có năng lực dẫn đường cho một hạm đội tàu , nhận rõ đường và đi thành công qua kênh đào Panama mở rộng hành trình ra biển Đại tây dương sang Thái bình dương .
+tương tự như vậy , Entropica có thể ứng dụng rộng rãi cho các nhiệm vụ trong điều khiển học quân sự , hậu cần và vận tải .
+cuối cùng ta thấy Entropica tự khám phá và điều hành chiến lược mua khi rẻ , bán khi đắt trên thị trường chứng khoán mô phỏng , làm tài sản tăng trưởng thành công theo cấp số nhân dưới sự quản lý .
+khả năng quản lý rủi ro này được ứng dụng rộng rãi trong tài chính và bảo hiểm .
+cái quý vị vừa thấy những đa dạng trong thông minh con người những hành vi tri nhận như khả năng sử dụng công cụ , khả năng đứng thẳng đi thăng bằng khả năng hợp tác xã hội đều tuân theo một phương trình duy nhất phương trình đó hướng dẫn toàn bộ hệ thống tối đa hóa tự do hành động tương lai .
+đến đây ta gặp một sự trớ trêu .
+đưa ta trở về điểm ban đầu lúc bắt đầu sử dụng khái niệm robot , vở kịch " RUR , " luôn có một khái niệm rằng nếu ta phát triển một trí thông minh nhân tạo , thì có thể xảy ra cuộc nổi loạn về điều khiển học .
+máy sẽ nổi lên chống lại con người .
+một hậu quả lớn của việc này là mấy thập kỷ vừa qua , có thể chúng ta đã có toàn bộ khái niệm về cuộc nổi loạn điều khiển học theo chiều ngược lại .
+vấn đề không phải là máy trước tiên trở nên thông minh rồi thành tự cao tự đại và muốn thống trị thế giới .
+một kết quả quan trọng khác là tìm kiếm mục đích .
+tôi thường tự hỏi , năng lực tìm kiếm mục đích thể hiện trong khung này như thế nào ?
+điểm cuối cùng , Richard Feynman , một nhà vật lý nổi tiếng , đã viết rằng nếu văn minh loài người bị hủy diệt và bạn chỉ còn cơ hội để lại một lời nhắn duy nhất cho con cháu mình hòng giúp chúng xây dựng lại nền văn minh , thì lời nhắn ấy là tất cả những thứ quanh ta được làm nên bởi các nguyên tố nhỏ bé nguyên tố đó hấp dẫn nhau khi chúng ở xa nhau nhưng lại đẩy nhau khi chúng ở gần nhau .
+còn phát biểu tương tự của tôi gửi cho thế hệ sau để giúp họ xây nên trí thông minh nhân tạo hoặc giúp họ hiểu được trí thông minh con người sẽ như sau : trí thông minh nên được xem như một quá trình vật chất nhằm tối đa hóa tự do hành động tương lai và tránh những ràng buộc trong tương lai của nó .
+cảm ơn quý vị rất nhiều .
+tôi nghĩ rằng tất cả chúng ta đều có những cái tủ riêng của mình .
+khó khăn của bạn có thể là nói cho một ai đó biết rằng bạn yêu cô ấy ngay từ lần gặp mặt đầu tiên , hay bạn đang mang bầu , hay bạn mắc bệnh ung thư , hay bất kì những cuộc trò chuyện khó nói mà chúng ta đã từng có trong suốt đời mình .
+mỗi trở ngại là một cuộc trò chuyện khó nói , và mặc dù chủ đề nói chuyện có thể trên trời dưới bể , thì trải nghiệm của việc đi vào hay bước ra cái tủ của bạn đều giống nhau .
+nó rất đáng sợ. Tuy ghét nó , chúng ta vẫn cần phải làm vậy .
+vài năm trước đây , khi còn làm việc tại quán cà phê South Side Walnut , một quán ăn rẻ tiền tại thị trấn , và trong suốt thời gian ở đó , tôi đã trải qua những giai đoạn phản đối gay gắt người đồng tính nữ không cạo lông nách , trích dẫn lời bài hát mà Ani DiFranco thể hiện như lời thánh ca .
+vì chiếc quần soóc thô rộng thùng thình và cắt tóc thường xuyên , nên tôi thường nhận được câu hỏi từ những đứa bé : " Bác là con trai hay con gái vậy ? "
+khi đó không khí quanh bàn sẽ yên lặng một cách kì quặc .
+tôi chỉ biết nghiến chặt răng , và nắm ấm cà phê trong tay mình chặt hơn .
+bố của đứa trẻ thì lật tờ báo trong tay một cách kì quặc còn mẹ nó thì lườm nó .
+nhưng tôi không nói gì cả , dù trong người đang sôi cả lên .
+vậy nên tôi đã tự hứa với mình , lần sau , tôi sẽ nói với chúng điều gì đó .
+đó là cuộc trò chuyện khó nói của tôi .
+và vài tuần sau , nó lại tái diễn .
+" Bác là con trai hay con gái vậy ? "
+và cả lời của Gloria Steinem .
+thậm chí cả một ít từ " Vagina Monologues " .
+rồi hít vào một hơi thật sâu , tôi nhìn xuống và đang nhìn trừng trừng vào tôi là một cô bé 4 tuổi đang mặc một chiếc váy hồng , đó không phải là một thử thách đối với một người đấu tranh cho bình đẳng phụ nữ mà chỉ là một câu hỏi của một đứa bé : " Bác là con trai hay con gái ? "
+vậy nên tôi hít một hơi thật sâu khác ngồi xổm xuống bên cạnh cô bé và đáp , " Ta biết trông ta dễ gây nhầm lẫn .
+bởi tóc ta ngắn giống con trai , và ta mặc quần áo con trai , nhưng ta là con gái , và cũng giống như cháu đôi lúc thích mặc váy hồng , nhưng đôi khi lại mặc bộ quần áo ngủ thoải mái .
+và ta là kiểu con gái thích mặc quần áo ngủ. "
+cô bé nhìn tôi như chết trân và đáp lại ngay lập tức , " Bộ quần áo ngủ yêu thích của cháu có màu tím và hình con cá .
+cháu muốn gọi một chiếc bánh kếp. "
+cháu muốn gọi bánh kếp ? "
+đó là cuộc trò chuyện khó chịu dễ vượt qua nhất mà tôi từng có .
+vì sao ư ? vì cô bé bánh kếp và tôi cả hai đều hiểu lẫn nhau .
+giống như nhiều người trong chúng ta , tôi đã sống trong những chiếc tủ cả đời mình , và gần như mọi lúc , bốn bề chiếc tủ đều như cầu vồng .
+nhưng bên trong lại tối đen , và bạn không thể biết được bốn mặt chiếc tủ có màu gì .
+bạn sẽ biết cảm giác khi sống trong một chiếc tủ như thế nào .
+nên thực tế là , chiếc tủ của tôi không khác gì mấy chiếc tủ của bạn của bạn này hay của bạn kia .
+chắc chắn tôi có thể đưa ra cho bạn 100 lý do vì sao việc tôi bước ra chiếc tủ của mình lại khó hơn việc bạn bước ra chiếc tủ của bạn , nhưng đây mới là điều cần nói : khó khăn không phải mang tính tương đối .
+mà khó là khó .
+ai có thể nói với tôi rằng giải thích cho ai đó việc bạn vừa mới phá sản lại khó hơn việc nói với người khác rằng bạn vừa mới lừa dối họ ?
+ai có thể nói rằng câu chuyện mà mình sắp nói lại khó hơn so với việc nói với đứa con năm tuổi của bạn rằng bạn sắp ly hôn ?
+chẳng có câu chuyện nào khó nói hơn cả , chỉ có câu chuyện khó nói mà thôi .
+chúng ta cần ngừng so sánh cái khó của mình với của người khác chỉ để khiến bản thân cảm thấy tốt hơn hay tệ hơn với chiếc tủ của mình hay chỉ để xót xa trước sự thật là tất cả chúng ta đều có cái khó của mình .
+tại một thời điểm nào đó trong đời mình , chúng ta đều sống trong những chiếc tủ của mình , và có thể cảm thấy an toàn , hay ít nhất cũng an toàn hơn so với việc ở phía bên ngoài cánh tủ .
+nhưng tôi ở đây để nói với các bạn rằng cho dù chiếc tủ của bạn được làm từ gì , thì nó cũng không phải là nơi để con người sống .
+tôi khi đó để tóc đuôi gà , mặc váy không dây quai và đi giày cao gót .
+tôi khi đó không phải là một cô gái đồng tính luôn sẵn sàng nói trả bất kì đứa bé bốn tuổi nào bước vào quán cà phê .
+tôi chỉ đông cứng người vì sợ , cuộn người lại ở trong góc tủ tối đen của mình giữ chặt lấy quả lựu đạn đồng tính và cử động , dù chỉ là nhúc nhích , là điều đáng sợ nhất mà tôi từng làm .
+gia đình , bạn bè , và những con người hoàn toàn xa lạ tôi đã dành cả đời mình cố gắng không làm những con người đó thất vọng và giờ tôi đã khiến cả thế giới đó đảo lộn một cách có chủ ý .
+tôi đã đốt cháy tất cả những kịch bản mà chúng ta đã đi theo bấy lâu nay , bởi nếu bạn không ném quả lựu đạn đó đi , thì nó sẽ giết chết bạn .
+một trong những cú ném lựu đạn đáng nhớ nhất của tôi là tại đám cưới của chị gái tôi .
+và sau một cuộc nói chuyện nho nhỏ , một trong những người phụ nữ ở đó hét to rằng , " Tôi yêu Nathan Lane ! "
+và một cuộc tranh luận về đồng tính đã nổ ra .
+" Ash , cô đã từng tới Castro chưa ? "
+" rồi , thực ra chúng tôi có bạn ở San Francisco. "
+" chúng tôi chưa bao giờ tới đó nhưng nghe nói rằng nơi đó rất tuyệt. "
+" Ash , cô có biết Antonio - thợ cắt tóc của tôi không ?
+anh ấy rất tốt và anh ấy chưa bao giờ nói chuyện về một cô bạn gái cả. "
+" Ash , thế chương trình tivi yêu thích của cô là gì ?
+chương trình tivi yêu thích của chúng tôi ư ? Will & Grace .
+và mọi người có biết chúng tôi thích ai không ? Jack .
+chúng tôi yêu mến Jack. "
+và rồi một người phụ nữ , tuy bối rối nhưng vô cùng muốn thể hiện sự ủng hộ của mình , để tôi biết rằng cô ấy đứng về phía tôi , cuối cùng buột miệng rằng , " Ừ thì thi thoảng chồng tôi cũng mặc áo cộc tay màu hồng. "
+tôi có thể quay trở lại chỗ bạn gái mình quay lại bàn những người bạn đồng tính của mình và bắt chước phản ứng của họ , vẻ bộ thanh cao và sự bất lực của họ khi cố gắng tránh từ ngữ thiếu tôn trọng người đồng tính khi nói chuyện với tôi hoặc tôi có thể thông cảm với họ và nhận ra rằng đây có lẽ là một trong những vấn đề khó khăn nhất , mà họ từng gặp , rằng việc họ bắt đầu những cuộc trò chuyện chính là lúc họ bước ra khỏi chiếc tủ của mình .
+chắc chắc là sẽ rất dễ dàng để chỉ ra họ thiếu sót ở điểm nào .
+nhưng sẽ khó gặp họ hơn tại chiếc tủ của họ và khó để nhận ra sự thật rằng họ đang cố gắng .
+bạn có thể đòi hỏi ai đó làm gì khác ngoài việc cố gắng ?
+nếu bạn thực sự muốn sống thật lòng mình với ai đó , đổi lại bạn cần sẵn sàng chấp nhận sự thật .
+vì vậy , những cuộc trò chuyện khó nói vẫn chưa phải là điểm mạnh của tôi .
+bạn có thể hỏi bất kì ai mà tôi từng hẹn hò .
+nhưng tôi đang khá dần lên , và tuân theo những điều mà tôi gọi là ba quy tắc Cô bé Bánh kếp .
+giờ , hãy nhìn chuyện này qua lăng kính của những người đồng tính nhưng hãy biết rằng cái giá cho việc bước ra khỏi bất kì chiếc tủ nào cũng nhất thiết phải giống nhau .
+điều thứ nhất : chân thực
+hãy cởi bỏ chiếc áo giáp của mình. Hãy là chính mình
+đứa trẻ ở quán cà phê không có mặc áo giáp , nhưng tôi đã sẵn sàng cho trận chiến .
+và nếu bạn muốn ai đó sống thật với bạn , thì họ cần biết rằng bạn cũng đang đấu tranh để được bên cạnh họ
+điều thứ hai : thẳng thắn. Cứ nói ra. Xé chiếc băng keo trên vết thương của bạn ra .
+nếu biết mình là đồng tính , cứ nói điều đó ra .
+nếu bạn nói với cha mẹ mình rằng có lẽ con là người đồng tính , thì họ sẽ giữ hy vọng rằng chuyện đó sẽ thay đổi .
+đừng trao cho họ niềm hy vọng giả tạo đó .
+bạn đang nói về sự thật của bản thân .
+đừng bao giờ cảm thấy có lỗi vì điều đó .
+một vài người có lẽ sẽ bị tổn thương , nhưng chắc chắn là bạn có thể thấy tội lỗi vì những gì mà mình đã làm , chứ không bao giờ thấy tội lỗi cho việc bạn là ai .
+và đúng vậy , có người sẽ cảm thấy thất vọng , nhưng đó là do họ , chứ không phải bạn .
+đó là do những kì vọng của họ về bạn , chứ không phải là của bạn về bản thân mình .
+đó là câu chuyện riêng của họ , chứ không phải của bạn .
+câu chuyện duy nhất bạn cần quan tâm là câu chuyện mà bạn muốn viết .
+vì thế , nếu lần tới bạn có thấy mình đang ở trong một góc tủ tối đen ôm chặt quả lựu đạn của mình , thì hãy nhớ rằng tất cả chúng tôi cũng đều đã từng ở đó trước đây .
+và có thể bạn sẽ cảm thấy rất cô đơn , nhưng thật ra không phải vậy .
+và chúng tôi biết việc này là khó nhưng chúng tôi cần bạn bước ra khỏi đó , cho dù chiếc tủ của bạn được làm từ thứ gì , bởi vì tôi cam đoan với bạn rằng có những người khác đang nhòm qua lỗ khóa chiếc tủ của họ để tìm kiếm linh hồn dũng cảm tiếp theo lao ra khỏi cánh cửa tủ , để trở thành con người đó và để cho thế giới này thấy rằng chúng ta to lớn hơn cả những chiếc tủ của mình rằng một chiếc tủ không phải là nơi mà một con người thực sự sống .
+tôi làm phẫu thuật não 18 năm về trước từ đó , khoa học não bộ trở thành niềm đam mê của tôi .
+thực ra , tôi là kỹ sư
+có những nghi vấn xoay quanh vấn đề phẫu thuật não .
+bạn có còn thông minh nữa không ?
+nếu không , liệu bạn có thể minh mẫn trở lại ?
+ngay sau cuộc phẫu thuật , tôi phải sử dụng hàng chục loại thuốc mỗi ngày , với liều lượng do tôi quyết định bởi nếu không uống thuốc , tôi sẽ chết trong vòng vài giờ ,
+và cũng mấy lần suýt chết ,
+nhưng may thay , vốn là kẻ thích thử nghiệm tôi quyết định thử nghiệm để tìm ra liều lượng tối ưu nhất bởi vì chưa có chỉ dẫn chi tiết nào cho việc này cả .
+tôi bắt đầu thử pha trộn khác đi và thật kinh ngạc chỉ một thay đổi nhỏ về liều lượng cũng có thể thay đổi ghê gớm cảm nhận của tôi về bản thân , cách suy nghĩ và cách cư xử với người khác .
+một trường hợp cụ thể là : trong vài tháng tôi đã thử liều lượng và hóa chất điển hình dành cho một thanh niên chừng 20 tuổi và tôi sửng sốt trước sự thay đổi trong suy nghĩ của mình .
+tôi thì thuộc dạng quá mức .
+điều ngạc nhiên là tôi không hề cố tỏ ra kiêu ngạo .
+thay vào đó là cố gắng với một ít tự ti , để giải quyết vấn đề ngay trước mắt , dù rằng không được như ý muốn .
+nhưng kinh nghiệm đó giúp tôi cảm thấy quý trọng đàn ông và những điều họ đã phải trải qua , và thân với đàn ông hơn kể từ đó .
+mục đích của tôi khi điều chỉnh hormone và các chất dẫn truyền thần kinh đó là cố lấy lại sự minh mẫn sau bệnh tật và phẫu thuật , những ý tưởng sáng tạo , suy tưởng .
+tôi suy nghĩ phần lớn bằng hình ảnh nên với tôi đó là thước đo thiết yếu - - làm sao để có những hình ảnh trong tâm trí để nhanh chóng khởi phát ý tưởng , Ý tưởng của tôi là thử nghiệm những ý tưởng mới đa chiều hình dung cảnh huống .
+kiểu tư duy này không mới .
+những triết gia như Hume , Descartes hay Hobbes cũng hình dung tương tự .
+họ nghĩ rằng hình ảnh trong tâm trí và ý tưởng thực ra giống nhau .
+ngày nay , người ta tranh cãi về điều này và có nhiều cuộc tranh luận về cách hoạt động của tâm trí , nhưng với tôi , đơn giản là : hình ảnh trong tâm trí , là trung tâm của suy nghĩ đổi mới và sáng tạo .
+sau nhiều năm , tôi đã có rất nhiều hình dung trong tâm trí tuyệt vời và tinh tế dựa trên cơ sở phân tích .
+giờ đây , tôi đang nghiên cứu làm thế nào thể hiện những hình dung trong tâm trí này trên màn hình vi tính một cách nhanh hơn .
+các bạn hình dung được không , một đạo diễn phim có thể dùng trí tưởng tượng của mình để đạo diễn cả thế giới trước mắt ?
+hoặc một nhạc sĩ có thể lấy những nốt nhạc ra khỏi đầu mình ?
+đây là phương cách cho phép những người sáng tạo nhanh chóng chia sẻ ý tưởng của mình .
+tôi sẽ giải thích vì sao điều này là khả thi qua hai thí nghiệm gần đây được thực hiện bởi hai nhóm nghiên cứu khoa học thần kinh hàng đầu
+cả hai dùng công nghệ fMRI " chụp cộng hưởng từ chức năng " để chụp não , Đây là bản scan não của Giogio Ganis và các đồng sự tại Harvard .
+cột trái biểu thị một bản scan não của một người đang xem ảnh .
+cột giữa biểu thị bản scan não của chính người đó khi hình dung chính bức hình vừa xem .
+cột phải được thực hiện bằng cách chồng cột giữa vào cột trái và cắt đi những phần thừa và cho thấy phần thừa gần bằng 0 .
+thí nghiệm được thực hiện với nhiều người , dùng nhiều hình ảnh khác nhau , thu về cùng một kết quả .
+gần như không có sự khác biệt giữa việc nhìn vào một bức hình và tưởng tượng đang nhìn vào chính bức hình ấy
+tiếp theo là một thí nghiệm khác , từ phòng lab Jack Gallant tại Berkeley , California .
+trong thí nghiệm này , mỗi người được cho xem hàng giờ video trên Youtube và não của họ được scan để lập một thư viện tư liệu về phản ứng của não trước mỗi diễn biến trong video .
+khi một bộ phim mới được chiếu với hình ảnh mới , con người mới , động vật mới , một bản scan mới được thu lại .
+máy vi tính , chỉ sử dụng dữ liệu từ bản scan não , để giải mã bản scan não mới đoán xem hình ảnh thực mà người đó đã xem là gì .
+ở bên phải là phán đoán của máy tính ở bên trái là clip đã được xem .
+phải há hốc miệng kinh ngạc !
+chúng ta sắp có thể làm được điều này .
+chúng ta chỉ cần nâng cao độ phân giải lên nữa thôi .
+xin nhớ rằng việc nhìn một hình ảnh và việc tưởng tượng ra chính hình ảnh đó cho ra những bản scan não giống nhau .
+thí nghiệm được thực hiện với độ phân giải cao nhất trên hệ thống scan não hiện có và độ phân giải đang tăng lên gấp hàng ngàn lần trong những năm gần đây .
+cần tăng độ phân giải lên gấp hàng ngàn lần nữa để có thể nhìn thấu hiện tượng này .
+làm thế nào để thực hiện ?
+có rất nhiều cách tiếp cận .
+một trong số đó là đặt một cực điện vào hộp sọ
+tôi không ủng hộ cách này .
+có rất nhiều kỹ thuật hình ảnh mới được kiến nghị , trong đó có kiến nghị của tôi Nhưng với thành công của MRI thời gian gần đây Trước tiên , ta phải đặt câu hỏi : liệu công nghệ này đã cùng đường ?
+suy nghĩ truyền thống nói rằng cách duy nhất để nâng độ phân giải là tạo ra nam châm to hơn nhưng sự thật là nam châm lớn hơn không làm tăng độ phân giải lên hàng ngàn lần như chúng ta mong muốn .
+tôi đề xuất ý tưởng rằng : thay vì làm nam châm to hơn , hãy làm ra nam châm tốt hơn .
+chúng ta có thể lập những cấu trúc phức tạp hơn nhiều với những sắp xếp hơi khác đi như kiểu Spirograph .
+tại sao điều này lại quan trọng ?
+trong nhiều năm , những nỗ lực trong MRI đều tập trung làm những nam châm thật to , thật lớn
+nhưng những tiến bộ gần đây về độ phân giải lại đến từ những giải pháp thông minh trong mã hóa và giải mã trong dẫn truyền tần số sóng FM và đầu nhận của hệ thống MRI .
+cũng vậy , thay vì tạo từ trường đồng bộ , hãy tạo những mô hình từ có cấu trúc bổ sung cho tần số FM .
+bằng cách kết hợp những mô hình mang từ tính với các mô hình trong tần số radio FM quá trình này có thể làm gia tăng đáng kể thông tin đúc kết được chỉ qua một lần scan .
+khi sử dụng fMRI , ta phải đo được không chỉ dòng máu được lọc mà còn cả những hormone và chất dẫn truyền thần kinh và có lẽ cả hoạt động thần kinh trực tiếp chẳng hạn như ngủ mơ .
+chúng ta sẽ có thể trực tiếp xuất những ý tưởng thành công cụ số .
+tưởng tượng việc ta có thể chơi đùa với ngôn ngữ giao tiếp trực tiếp với ý nghĩ của con người ?
+khi đó ta sẽ có thể làm gì ?
+ta sẽ học cách xử lý những suy nghĩ chưa được sàng lọc như thế nào ?
+bạn cho rằng Internet là vô cùng rộng lớn .
+đây là một câu hỏi lớn .
+nó có thể là một công cụ hấp dẫn để phóng đại những kĩ năng tư duy và giao tiếp của chúng ta
+thực ra , chính công cụ này có thể giúp tìm ra thuốc chữa trị cho bệnh Alzheimer ' s và những bệnh tương tự .
+ta có rất ít lựa chọn bên cạnh việc mở cánh cửa này
+chắc sẽ không mất lâu hơn thế .
+chúng ta cần học để cùng nhau tiến về phía trước .
+xin cảm ơn .
+trong nhiều xã hội phụ hệ và mang tính bộ tộc , các ông bố thường được biết đến nhờ con trai mình , nhưng tôi là một trong số ít các ông bố những người được mọi người biết đến nhờ con gái của mình , và tôi tự hào về điều đó .
+trước khi những điều đó xảy ra , nó là con gái tôi , nhưng bây giờ tôi được xưng là cha của con bé .
+kính thưa Quý Bà và Quý ông Nếu chúng ta lướt qua lịch sử loài người , câu chuyện của phụ nữ là câu chuyện của bất công , bất bình đẳng , bạo lực và bóc lột .
+con bé không được hoan nghênh , bởi cả cha lẫn mẹ nó .
+những người láng giềng tìm đến và chia sẻ nỗi buồn với bà mẹ , và không một ai chúc mừng người cha .
+và người mẹ cảm thấy rất khó chịu vì đã sinh ra một đứa bé gái .
+khi hạ sinh đứa con gái đầu tiên , cô ấy buồn .
+khi sinh đứa con gái thứ hai , cô ta bị sốc , và với kỳ vọng có được một đứa con trai , khi hạ sinh đứa con gái thứ ba , cô ta có cảm giác như một tội đồ .
+không chỉ là các bà mẹ bị dằn vặt , mà cả đứa con gái , đứa con gái vừa được sinh ra , khi lớn lên , nó cũng sẽ bị dằn vặt như thế .
+ở tuổi lênnăm , khi mà lẽ ra con bé được đi học , nó bị bắt ở nhà trong khi anh em trai mình được nhận vào trường .
+cho đến khi tuổi 12 , bằng cách nào đó , con bé có được một cuộc sống tốt .
+nó có thể vui chơi .
+nó có thể chơi với bạn bè mình trên đường phố , và có thể di chuyển xung quanh như một con bướm .
+nhưng khi bước vào tuổi thiếu niên , Khi con bé lên 13 , nó bị cấm ra khỏi nhà nếu không được hộ tống bởi một người đàn ông .
+cô bé bị giam cầm bởi bốn bức tường .
+không còn có sự tự do cá nhân nữa .
+con bé trở thành một thứ danh dự của cha , anh em và của gia đình cô , và nếu nó vượt qua quy tắc của cái được gọi là danh dự đó , nó thậm chí có thể bị giết chết .
+và cũng thật thú vị khi mà cái được gọi là danh dự này , không chỉ ảnh hưởng đến cuộc sống của cô bé , mà còn đến cuộc sống của các nam giới trong gia đình .
+tôi biết một gia đình có bảy chị em gái và một cậu con trai , và cậu con trai đó , đã phải di dân đến các nước vùng Vịnh , để kiếm sống nuôi bảy chị em mình và cha mẹ , bởi vì anh ta nghĩ rằng sẽ rất nhục nhã nếu bảy chị em của anh ta học lấy một nghề và đi ra khỏi nhà kiếm lấy một kế sinh nhai .
+vì vậy cậu trai này , anh ta hy sinh niềm vui sống của bản thân và hạnh phúc của chị em anh ta trên bàn thờ tôn thờ thứ danh dự đấy .
+và có một luật lệ nữa trong những xã hội phụ hệ được gọi là sự vâng lời .
+một cô gái tốt có nghĩa vụ phải rất yên lặng , rất khiêm tốn và rất phục tùng .
+đó là các tiêu chuẩn .
+mẫu cô gái tốt là phải rất im lặng .
+cô ta có nghĩa vụ phải im lặng và chấp nhận các quyết định của cha và mẹ và các quyết định của trưởng lão , ngay cả khi cô ta không thích chúng .
+nếu không , cô sẽ bị gọi là ngỗ ngược .
+và những gì cuối cùng sẽ xảy ra ?
+theo lời của một nhà thơ nữa , cô ta bị ép gả và sau đó sinh thêm con trai và con gái .
+và vòng luẩn quẩn này cứ thế tiếp tục
+kính thưa Quý Bà và Quý ông cảnh ngộ nghiệt ngã mà hàng triệu phụ nữ gặp phải này có thể được thay đổi Nếu chúng ta suy nghĩ khác đi , Nếu phụ nữ và nam giới suy nghĩ khác đi , Nếu đàn ông và phụ nữ trong xã hội phụ hệ và mang tính bộ lạc ở các nước đang phát triển , nếu họ có thể phá vỡ luật lệ về gia đình và xã hội , nếu họ có thể bãi bỏ luật phân biệt đối xử trong hệ thống xã hội của mình , những thứ mà đi ngược lại các nhân quyền cơ bản của phụ nữ .
+anh chị em thân mến , khi Malala được sinh ra , lần đầu tiên , Tin tôi đi Tôi không thích trẻ sơ sinh , thẳng thắn mà nói nhưng khi tôi nhìn vào đôi mắt con bé , Tin tôi đi Tôi cảm thấy rất vinh dự .
+và rất lâu trước khi nó được sinh ra , Tôi đã nghĩ về một cái tên cho con bé , và tôi đã thích thú với một anh hùng huyền thoại và tự do tại Afghanistan .
+tên cô ấy là Malalai Maiwand , và tôi đặt tên con gái tôi theo nhân vật này .
+một vài ngày sau khi Malala chào đời , con gái tôi được sinh ra , người anh em họ của tôi đến thăm - - và đó là một sự trùng hợp - - anh ta đã đến nhà của tôi và mang theo một cây phả hệ , một cây phả hệ của gia đình Yousafzai , và khi tôi nhìn vào cái cây này , nó truy ngược trở lại tổ tiên 300 năm về trước của chúng tôi .
+nhưng khi nhìn vào đó , tất cả đều là đàn ông , và tôi đã lấy cây bút của mình , vẽ một đường từ tên của tôi , và viết , " Malala. "
+và khi con bé lớn lên , Khi nó lên bốn tuổi rưỡi , tôi đã nhận nó vào trường của mình .
+bạn sẽ hỏi , tại sao tôi đề cập đến việc thu nhận một bé gái vào trường học ?
+có , tôi phải đề cập đến nó .
+nó có thể được cho là bình thường ở Canada , ở Mỹ , ở nhiều nước phát triển , nhưng ở các nước nghèo , trong xã hội phụ hệ , trong xã hội mang tính bộ tộc , đó là một sự kiện lớn trong cuộc đời của một cô gái .
+Tuyển sinh trong trường học có nghĩa là công nhận của danh tính và tên tuổi của cô ấy .
+nhập học tại một trường nghĩa là cô ấy đã bước vào thế giới của những giấc mơ và khát vọng nơi cô có thể khám phá tiềm năng của mình cho cuộc sống tương lai của cô .
+tôi có 5 chị em , và không ai trong số họ được đi học , và bạn sẽ lấy làm ngạc nhiên , hai tuần trước , khi tôi điền vào mẫu thị thực Canada , và tôi đã điền vào phần dành cho gia đình và tôi đã không thể nhớ ra họ của một số chị em của mình .
+và lý do là tôi không bao giờ , không bao giờ nhìn thấy tên của chị em mình được viết trên bất kỳ tài liệu nào .
+những gì mà cha tôi không thể cho các chị em của tôi và các con gái của ông , Tôi nghĩ rằng tôi phải thay đổi nó .
+tôi đánh giá cao sự thông minh và sáng dạ của con gái mình .
+tôi khuyến khích con bé đến ngồi với tôi khi bạn bè đến thăm .
+tôi khuyến khích nó đi với tôi đến các cuộc họp .
+và tất cả những giá trị tốt này , Tôi đã cố gắng khắc sâu vào tính cách của con bé .
+và điều này không chỉ cho nó , chỉ cho Malala .
+tôi truyền đạt tất cả những giá trị tốt này vào trường học của mình , các học sinh nữ cũng như học sinh nam .
+tôi sử dụng giáo dục để giải phóng phụ nữ .
+tôi đã dạy các cô gái của mình , Tôi đã dạy những nữ sinh của mình , quên đi bài học vềsự vâng lời .
+tôi đã dạy những nam sinh quên đi bài học về cái gọi là danh dự hão .
+anh chị em thân mến , chúng tôi phấn đấu để có thêm nhiều quyền cho phụ nữ , và chúng tôi đã đấu tranh để có nhiều hơn , nhiều hơn và nhiều không gian dành cho phụ nữ trong xã hội .
+nhưng chúng tôi đã gặp phải một hiện tượng mới .
+nguy hiểm đến quyền con người và đặc biệt là quyền của phụ nữ .
+nó được gọi là taliban hoá .
+có nghĩa là phủ định hoàn toàn sự tham gia của phụ nữ vào mọi hoạt động chính trị , kinh tế và xã hội .
+hàng trăm ngôi trường bị tàn phá .
+các cô gái bị cấm đi học .
+phụ nữ bị buộc phải mang mạng che mặt và ngừng đi ra ngoài .
+các nhạc công im tiếng , các cô gái bị đòn roi và những ca sĩ bị thiệt mạng .
+hàng triệu người khốn khổ nhưng ít ai dám cất lên tiếng nói , và đó là điều đáng sợ nhất khi xung quanh bạn là những người như vậy những người bị giết và bị đòn roi , và bạn lên tiếng cho quyền lợi của mình .
+nó thực sự là điều đáng sợ nhất .
+ở tuổi lên 10 , Malala đứng lên và đứng lên cho quyền được giáo dục .
+con bé đã viết một cuốn nhật ký cho blog BBC , con bé tình nguyện trở thành tài liệu cho tờ New York Times , và lên tiếng trên tất cả những phương tiện mà nó có thể .
+và giọng nói của con bé là giọng nói mạnh mẽ nhất .
+nó lây lan như đỉnh cao trên toàn thế giới .
+và đó là lý do Taliban không thể chịu đựng được chiến dịch của nó , và ngày 9 tháng 10 năm 2012 , con bé đã bị bắn vào đầu .
+đó là một ngày tận thế cho gia đình tôi và cho cả tôi .
+thế giới sụp đổ thành một lỗ đen lớn .
+trong khi con gái tôi trên bờ vực giữa cuộc sống và cái chết , Tôi đã thì thầm vào tai vợ mình , " Liệu anh có nên bị kết tội vì những gì đã xảy ra cho con gái anh và con gái em không ? "
+và cô ấy đột ngột nói với tôi rằng , " Anh làm ơn đừng tự trách bản thân mình .
+anh đã đứng lên vì những điều đúng đắn .
+anh lao vào hiểm nguy vì lẽ phải , vì hòa bình , và vì giáo dục , và con gái của anh được truyền cảm hứng từ anh và nó đã tham gia cùng anh .
+cả hai cha con đang đi đúng hướng " và Chúa sẽ bảo vệ cho con bé. "
+những từ này có nghĩa rất lớn với tôi , và tôi đã không hỏi câu hỏi này một lần nữa .
+khi Malala ở trong bệnh viện , và con bé đã trải qua những đau đớn những cơn đau đầu như búa bổ bởi vì các dây thần kinh mặt của con bé bị cắt lìa , Tôi đã nhìn thấy sự u tối trên khuôn mặt của vợ tôi .
+nhưng con gái tôi không bao giờ phàn nàn .
+con bé kể chúng tôi nghe , " Con ổn với nụ cười méo này và sự đơ cứng của khuôn mặt mình .
+con sẽ ổn thôi. Cha mẹ đừng lo lắng nhé. "
+con bé là một sự an ủi cho chúng tôi , và nó đã an ủi chúng tôi .
+anh chị em thân mến , chúng tôi đã học từ con bé về việc làm thế nào để bật dậy trong những thời điểm khó khăn nhất , và tôi vui mừng chia sẻ với các bạn rằng mặc dù là một biểu tượng về quyền trẻ em và phụ nữ , con bé cũng giống như bất kỳ bé gái 16 tuổi nào .
+con bé khóc khi bài tập ở nhà của mình không được hoàn thành đầy đủ .
+con bé tranh cãi với em trai mình , và tôi rất hạnh phúc vì điều đó .
+người ta hỏi tôi rằng , có gì đặc biệt trong cách giảng dạy của tôi thứ đã làm cho Malala trở nên kiên cường dũng cảm , dán lên tiếng và đĩnh đạc như thế ?
+tôi nói với họ , đừng hỏi tôi về những gì tôi đã làm .
+hãy hỏi tôi về những gì tôi đã không làm .
+tôi đã không cắt đi đôi cánh của con bé. Chỉ có vậy
+cảm ơn rất nhiều .
+thế giới mặc định con người của bạn nhưng bạn mới là người hiểu rõ nhất bản thân mình và câu hỏi đó luôn thôi thúc trong tim : bạn sẽ trở thành như thế nào ?
+tôi có thể là người duy nhất như thế , nhưng tôi không đơn độc , hoàn toàn không đơn độc .
+khi trở thành một người mẫu thời trang , tôi nghĩ là tôi đã đạt giấc mơ của mình giấc mơ của tôi từ khi còn là một đứa trẻ .
+vẻ ngoài của tôi cuối cùng cũng đã trở về đúng với con người bên trong .
+vì vài lý do , tôi sẽ trở lại vấn đề này sau , khi xem bức ảnh này , tôi nghĩ rằng , " Geena , mày làm được rồi đấy " mày đã làm được mày đã đạt được ước mơ rồi đấy " .
+nhưng tháng 10 vừa rồi , tôi nhận ra đó chỉ mới là khởi đầu .
+tất cả chúng ta được đặt trong những chiếc hộp có tên gia đình , tín ngưỡng , xã hội , quá khứ , hay chính cơ thể của mình .
+vài người trong chúng ta đủ dũng cảm để thoát khỏi sự ràng buộc , vượt qua giới hạn của màu da hay đức tin của những người xung quanh .
+những con người ấy luôn thách thức những giá trị cố hữu , những cái mà người ta cho là có thể chấp nhận .
+trường hợp của tôi , 9 năm trước , vài người hàng xóm , vài người bạn , đồng nghiệp , thậm chí công ty quản lý , không biết về quá khứ của tôi .
+tôi vẫn còn nhớ khi lên 5 tôi đi quanh nhà ở Philippines , đội áo thun lên đầu .
+và mẹ tôi hỏi , " Sao lúc nào con cũng đội áo lên đầu thế ? "
+tôi trả lời : " mẹ à , đây là tóc của con. Con là con gái. "
+lúc ấy , tôi đã biết mình là ai .
+giới tính luôn được coi là một sự thật , không thể thay đổi được , nhưng ngày nay , ta biết rằng , nó đã trở nên linh động , phức tạp và bí ẩn hơn .
+trước những thành công của bản thân , tôi chưa bao giờ đủ dũng cảm kể câu chuyện của mình , không phải bởi vì tôi đã sai , nhưng bởi vì cách mà thế giới xung quanh đối xử với những người muốn thoát khỏi sự ràng buộc .
+mỗi ngày , tôi cảm thấy hạnh phúc vì được là phụ nữ .
+tôi có cha , mẹ và gia đình những người chấp nhận con người thật của tôi .
+nhiều người không may mắn như thế
+có những truyền thống lâu đời trong nền văn hóa châu Á cổ vũ cho những bí ẩn hay biến đổi của giới tính .
+một Bồ tát từ bi .
+một nữ thần Hindu , nữ thần hijra
+khi tôi lên 8 , Tôi tham dự một lễ hội ở Philippines tôn vinh những điều huyền bí .
+tôi ở trên sân khấu , và một người phụ nữ xinh đẹp bước đến trước mặt tôi , vào cái khoảnh khắc ấy , có cái gì đó trỗi dậy trong tôi : tôi muốn trở thành một phụ nữ như thế .
+khi 15 tuổi , tôi vẫn ăn mặc như một đứa con trai. Tôi gặp một phụ nữ tên T.L. Cô ấy là quản lý
+của một cuộc thi sắc đẹp dành cho người chuyển đổi giới tính .
+đêm đó , cô ấy hỏi tôi , " Sao em không tham gia cuộc thi này ? "
+khoảnh khắc đó đã thay đổi cuộc đời tôi .
+tôi được giới thiệu đến thế giới của những cuộc thi sắc đẹp .
+sẽ không có nhiều người nói với bạn rằng công việc đầu tiên của họ là hoa hậu của người chuyển đổi giới tính , nhưng tôi đã làm điều đó .
+cho nên , từ 15 đến 17 tuổi , tôi tham gia từ những cuộc thi uy tín nhất đến những cuộc thi ở thùng xe tải , theo đúng nghĩa đen hay đôi khi là ở lề đường cạnh đồng lúa , và ở Philippines , khi trời mưa mưa rất nhiều , những người tổ chức phải di chuyển vào trong nhà của ai đó .
+tôi dần quen với lòng tốt của những người lạ xung quanh nhất là khi đi đến những vùng xa xôi ở Philippines .
+nhưng điều quan trọng nhất là tôi gặp được những người bạn tốt .
+năm 2001 , mẹ tôi , chuyển đến San Francisco , bà gọi về và bảo tôi rằng thẻ xanh của tôi đã được chấp thuận , tôi có thể chuyển đến Mỹ .
+tôi phản đối .
+tôi nói với mẹ , " Mẹ , con đang vui mà .
+con ở đây với bạn bè con , Con thích du lịch , trở thành một nữ hoàng sắc đẹp. "
+nhưng , sau đó 2 tuần , mẹ tôi lại gọi , bà ấy nói , " Con có biết là nếu chuyển đến Mỹ con có thể thay đổi tên và giới tính ? "
+đó là tất cả những gì mà tôi hằng mong ước .
+mẹ tôi cũng đề nghị đặt 2 chữ E khi đánh vần tên của tôi .
+bà ấy cũng đã đi cùng tôi đến buổi phẫu thuật ở Thái Lan khi tôi 19 tuổi .
+thật là thú vị khi mà ở một vài nơi xa xôi tại Thái Lan , họ có thế thực hiện những cuộc phẫu thuật với độ tinh vi , an toàn và chuẩn xác cao .
+cùng lúc đó ở Mỹ , bạn phải thực hiện phẫu thuật trước khi có thể thay đổi tên và giới tính .
+cho nên vào năm 2001 , tôi chuyển đến San Francisco , và khi nhìn vào tấm bằng lái xe của mình ở California với cái tên Geena và giới tính là nữ .
+nó là một khoảnh khắc kỳ diệu .
+đối với vài người , chứng minh thư là để được phép lái xe hay thậm chí chỉ để được uống rượu , nhưng với tôi , đó là giấy chứng nhận được sống , để cảm thấy mình được tôn trọng .
+tôi cảm thấy mình có thể chinh phục giấc mơ của mình chuyển tới New York và trở thành một người mẫu .
+nhiều người không may mắn như vậy .
+một trong số đó là người phụ nữ tên Ayla Nettles .
+đó là một cô gái trẻ đến từ New York người dũng cảm sống thật với chính mình , nhưng lòng hận thù đã giết chết cô ấy .
+hầu hết trong cộng đồng của tôi , đó là sự thật vẫn còn tồn tại .
+tỉ lệ tự sát trong cộng đồng của chúng ta cao hơn 9 lần so với mặt bằng chung .
+vào mỗi ngày 20 tháng 11 , chúng tôi tổ chức một buổi cầu nguyện khắp toàn cầu để tưởng nhớ những người chuyển đổi giới tính .
+tôi đứng tại sân khấu này bởi vì đó là một câu chuyện dài về những người dám đứng lên chống lại sự bất công .
+đó là Marsha P . Johnson và Sylvia Rivera .
+ngày hôm nay , tại thời điểm này , tôi được công khai giới tính .
+tôi không thể chỉ sống thật cho riêng mình .
+tôi muốn nỗ lực hết mình để giúp người khác sống thật với chính họ , mà không phải cảm thấy xấu hổ hay khủng hoảng .
+tôi ở đây , công khai để một ngày nào đó , sẽ không bao giờ cần đến ngày cầu nguyện 20 tháng 11 nữa .
+sự thật sâu trong tôi cho phép tôi chấp nhận con người của mình .
+các bạn cũng như thế phải không ?
+chân thành cảm ơn .
+bạn sẽ nói gì với các bậc cha mẹ , xa hơn nữa , là bạn bè , gia đình , hay bất cứ ai đang tìm cách đối diện với một đứa trẻ hay người nào đó gặp khó khăn về giới tính của mình. bạn sẽ nói gì với những người trong gia đình của họ để giúp những người này cảm thấy thoải mái , quan tâm và đối xử tử tế với những người đó ?
+Geena Rocero : tôi rất may mắn .
+và đôi khi , nó có hiệu quả , đôi khi không , cho nên ... việc xác định giới tính là vấn đề cốt lõi của chúng ta , phải không ?
+chúng ta được mặc định giới tinh ngay từ lúc sinh ra , cho nên điều mà tôi cố gắng làm là tạo ra những cuộc đối thoại rằng đôi khi giới tính hiện tại cũng không hoàn toàn đúng , cần có một khoảng trống cho phép con người tự xác định lại chính bản thân mình , và chúng ta cần những cuộc đối thoại như vậy với cha mẹ , bạn bè .
+cuộc đấu tranh của người chuyển giới , chỉ mới bắt đầu , so với cuộc đấu tranh về đồng tính .
+còn nhiều việc cần phải lảm .
+sẽ cần có nhiều sự thấu hiểu .
+sẽ có nhiều sự tò mò và nhiều câu hỏi , và tôi hy vọng tất cả mọi người sẽ trở thành đồng minh của tôi .
+cảm ơn. Rất tuyệt. Cảm ơn .
+tôi mới nghỉ hưu gần đây từ Đội tuần tra xa lộ California sau 23 năm công tác .
+công việc chính suốt 23 năm ấy là tuần tra khu vực mũi phía Nam của Hạt Marin , bao gồm cả Cầu Cổng Vàng .
+cây cầu là một biểu tượng kiến trúc được cả thế giới biết đến ta thấy San Francisco , Thái Bình Dương , kiến trúc đầy cảm hứng .
+đáng buồn thay , công trình này có sức hút với những vụ tự sát là một trong những " bãi tự sát " nổi tiếng thế giới
+cầu Cổng Vàng hoàn thành vào năm 1937 .
+Joseph Strauss , kỹ sư trưởng của Cầu Cổng Vàng đã tuyên bố như sau : " thực tế , cây cầu là để ngăn các vụ tự sát
+việc tự vẫn trên cầu là không thực tế cũng như khó có thể xảy ra. "
+Tuy nhiên , từ khi đi vào hoạt động có hơn 1600 người tìm đến cái chết. tại cây cầu này ,
+một số người tin rằng việc đi dạo giữa hai tháp cầu sẽ dẫn tới một chiều không gian khác. Cây cầu đã được thi vị hóa tới mức — chỉ việc ngã khỏi cầu bạn sẽ thoát mọi lo âu phiền muộn , làn nước dưới chân cầu sẽ rửa sạch làu tâm hồn bạn .
+nhưng để tôi nói bạn hay thực chuyện gì đã xảy ra khi người ta dùng cây cầu như một phương tiện để tự kết liễu đời mình .
+va chạm ấy làm gãy các xương , các xương ấy đâm vào các cơ quan nội tạng .
+đa số đều chết do va chạm .
+những trường hợp khác vô vọng quẫy đạp trong làn nước rồi cũng chìm dần .
+tôi không cho rằng những người định tự vẫn bằng phương thức này hiểu được cái chết ghê sợ mà họ phải đối mặt .
+Mấu chốt nằm ở đây .
+ngoài xung quanh hai tháp cầu ra có một dãy những ống thép dài gần 1m chạy song song bên thành cầu .
+đây là vị trí những người tự sát đứng trước khi rời bỏ cuộc sống của mình .
+tôi nói với bạn , theo tôi Khi một người đứng trên chỗ đó trong thời khắc u tối nhất cuộc đời , thì rất khó thuyết phục họ quay đầu .
+tôi chụp bức ảnh này năm ngoái người phụ nữ nói với một nhân viên và ngẫm nghĩ về đời mình .
+tôi rất vui được nói với bạn rằng ngày đó chúng tôi đã thành công khi thuyết phục được cô ấy quay lại .
+khi tôi mới làm việc tại đây , tôi không hề được huấn luyện bài bản .
+bạn vật lộn làm công việc của mình .
+đây không chỉ là điều tai hại với những ai có ý định tự vẫn , mà còn với những nhân viên như tôi .
+đến nay , tôi đã đi một đoạn đường dài .
+giờ những nhân viên kỳ cựu và nhà tâm lý sẽ huấn luyện nhân viên mới .
+đây là Jason Garber .
+tôi gặp Jason ngày 22/7 năm ngoái tôi nhận một cuộc gọi báo có một người nghi là muốn tự sát. đang ngồi trên lan can giữa cầu .
+tôi trả lời , và khi tôi đến , tôi quan sát Jason đang nói chuyện với một nhân viên của Cầu Cổng Vàng .
+Jason chỉ mới 32 tuổi và anh ta bay đến đây từ New Jersey .
+sau khi trò chuyện khoảng 1 tiếng đồng hồ , anh ta hỏi chúng tôi có biết câu chuyện " Chiếc hộp của Pandora "
+trong thần thoại Hy Lạp , thần Zeus tạo ra Pandora và gửi cô ta xuống Trái Đất cùng 1 chiếc hộp bảo cô rằng : " đừng bao giờ mở hộp ra. "
+ngày nọ , Pandora không cưỡng đươc tò mò đã mở chiếc hộp ấy .
+từ chiếc hộp bay ra đủ bệnh dịch , đau khổ , và những thứ xấu xa , tai ương .
+điều tốt đẹp duy nhất trong hộp chính là " Hy vọng " .
+sau đó , Jason hỏi chúng tôi : " sẽ thế nào khi anh mở hộp ra và hy vọng không có ở đó ? "
+anh ta im lặng trong giây lát , nghiêng người về bên phải và ra đi .
+người thanh niên tốt bụng , thông minh từ New Jersey đã tự vẫn như thế .
+đêm đó , tôi nói chuyện với ba mẹ của Jason. Tôi cho rằng khi trò chuyện với họ , nghe như tôi không ổn lắm , vì ngay ngày hôm sau , thầy giảng đạo của gia đình gọi xem tôi có sao không .
+ba mẹ của Jason nhờ ông ta làm việc đó .
+hệ lụy từ một vụ tự sát ảnh hưởng đến rất nhiều người .
+tôi muốn đặt một vài câu hỏi thế này : bạn sẽ làm gì nếu người thân , bạn bè hay người bạn yêu tự sát ?
+bạn sẽ nói gì ?
+bạn biết mình cần phải nói gì không ?
+kinh nghiệm cho hay rằng , không phải " trò chuyện " mới giải quyết vấn đề mà chính là lắng nghe .
+nghe để thấu hiểu .
+đừng tranh cãi , trách móc , hay bảo người đó bạn biết họ cảm thấy thế nào , bởi vì có thể chính bạn cũng không rõ .
+sự có mặt của bạn lúc ấy , có thể chính là bước ngoặt họ cần có trong đời .
+nếu bạn nghĩ ai đó đang cố tự vẫn , đừng ngại đối diện và hãy hỏi họ .
+một cách đặt câu hỏi cho họ là : " những người khác trong hoàn cảnh tương tự đều nghĩ sẽ kết thúc đời mình ; anh từng có suy nghĩ ấy chưa ? "
+nếu dám đối diện với họ , có thể bạn cứu sống họ và thay đổi cuộc đời họ .
+một vài dấu hiệu khác ở họ mà bạn có thể bắt gặp : sự tuyệt vọng , tin mọi thứ thật tồi tệ và chẳng bao giờ có thể tốt lên. Sự bất lực , họ tin rằng bản thân không thể làm gì khác hơn để giải quyết nó. họ thu mình vào trong vỏ ốc ; hay mất hết hứng thú với đời .
+tôi chuẩn bị buổi nói chuyện này cách đây vài hôm ; và tôi có nhận được e - mail từ một phụ nữ , nên tôi muốn đọc nó cho các bạn nghe .
+bà ấy mới mất con trai vào ngày 19/01 năm nay và bà ấy đã viết cho tôi e - mail này chỉ cách đây vài ngày thôi. Với sự cho phép của bà ấy , tôi xin được đọc thư này .
+chào Kevin. Tôi đoán giờ anh đang ở Hội nghị của TED .
+chắc đó sẽ là một trải nghiệm tuyệt vời .
+tôi nghĩ tuần này có nên dạo trên cầu không .
+chỉ muốn viết cho anh vài dòng .
+và hy vọng rằng anh có thể đem những lời này chia sẻ , để khi về mọi người kể lại cho bạn mình bạn họ lại nói với những người bạn khác .
+tôi vẫn còn chưa hết bàng hoàng , nhưng dần dần tôi cũng nhận ra rằng Mike sẽ không về nhà nữa .
+khi ấy , Mike đang lái xe từ Petaluma đến San Francisco để xem trận đấu của đội 49ers với bố vào ngày 19/01 .
+nhưng thằng bé chẳng bao giờ đến đó được .
+đêm đó , tôi đã báo cảnh sát Petaluma rằng thằng bé đã mất tích .
+sáng hôm sau , 2 cảnh sát đến nhà tôi báo rằng xe của Mike được tìm thấy ở dưới cầu .
+một nhân chứng đã thấy nó nhảy khỏi cầu lúc 1h58 ' chiều ngày hôm trước .
+cảm ơn anh rất nhiều bởi đứng lên cho những ai nhất thời quá yếu đuối nên không thể tự mình đứng lên .
+ai chẳng từng phiền muộn , đau khổ ai chưa trải qua bệnh tâm thần ?
+thật không dễ gì để chấm dứt nó .
+tôi cầu nguyện cho anh cùng cuộc chiến của anh .
+cầu Cổng Vàng vốn dĩ phải là con đường nối vùng vịnh xinh đẹp của chúng ta , chứ không phải là một nghĩa địa .
+chúc anh một tuần nhiều may mắn. Vicky "
+tôi không thể tượng tưởng nổi lòng can đảm của bà ấy để có thể đi xuống cầu bước lại con đường ngày hôm ấy con trai bà đã đi , cũng như dũng cảm để sống tiếp .
+tôi cũng muốn giới thiệu một thanh niên là hiện thân của hy vọng và dũng cảm .
+ngày 11/03 năm 2005 , tôi nhận được cuộc gọi báo tin có một người muốn tự sát ở đường đi bộ trên cầu gần tháp phía Bắc .
+tôi lái xe mô - tô xuống phần đường đi bộ , và tôi thấy người thanh niên này , Kevin Berthia , đang đứng ở đó .
+trong suốt một tiếng rưỡi , tôi lắng nghe Kevin nói về sự suy sụp và tuyệt vọng của cậu ấy .
+ngày hôm ấy , chính Kevin đã quyết định trèo trở lại và tự cho đời mình một cơ hội nữa .
+khi Kevin quay lại , tôi chúc mừng cậu ta :
+" đây là một khởi đầu mới , một cuộc sống mới. "
+nhưng tôi thắc mắc : " điều gì đã khiến cậu quay lại và cho cuộc đời mình một cơ hội mới ? "
+các bạn có biết cậu ấy nói gì với tôi ?
+Kevin đáp : " vì chú chịu nghe cháu .
+chú để cháu nói và chú chỉ nghe thôi. "
+không lâu sau sự việc đó , tôi nhận được một bức thư từ mẹ của Kevin. Tôi có đem nó đến đây , và tôi muốn đọc cho các bạn cùng nghe .
+" thưa ông Briggs , Không gì có thể xóa mờ sự kiện ngày 11/3 đó , ông là một trong những lý do để Kevin còn ở bên chúng tôi .
+tôi tin chắc rằng lúc đó Kevin đã kêu cứu .
+thằng bé được chẩn đoán mắc bệnh tâm thần nhưng nay nó đã được chữa trị .
+tôi nhận nuôi Kevin khi nó mới 6 tháng , tôi hoàn toàn không biết gì về đặc điểm di truyền nhưng , tạ ơn Chúa giờ thì chúng tôi đã hiểu .
+Kevin không phải là người đồng tính như nó đã nói .
+chúng tôi thật sự cảm ơn Chúa vì ông đã đến .
+chúng tôi chịu ơn ông rất nhiều. Narvella Berthia. "
+cuối thư , bà ấy còn viết : " Tái bút : đêm đó , khi đến bệnh viện San Francisco , tôi thấy tên ông trong danh sách bệnh nhân .
+tôi biết nói thế nào để tỏ lòng cảm kích. "
+Kevin giờ đã là một người cha đầy tình thương , một công dân đóng góp cho xã hội .
+cậu ấy đã không ngại nói về sự kiện ngày hôm đó và sự trầm cảm của mình với hy vọng câu chuyện của mình sẽ truyền cảm hứng cho người khác .
+tự sát không chỉ là vấn đề tôi gặp phải trong công việc .
+đó còn là chuyện cá nhân .
+ông của tôi đã tự sát bằng thuốc độc .
+dù việc đó giúp chấm dứt nỗi đau của riêng ông , nhưng lại cướp đi cơ hội để tôi được hiểu hơn về ông mình .
+đó chính là những gì tự sát gây ra .
+với những ai đã tự sát , hay những ai có ý định ấy , họ không nghĩ đến việc gây tổn thương người khác .
+họ chỉ muốn chấm dứt nỗi đau của mình .
+có thể thực hiện được việc này theo 3 cách : đi ngủ , dùng ma túy hoặc rượu , hoặc là chết .
+trong nghề của mình , tôi đã trả lời và tham gia vào hàng trăm vụ có vấn đề tâm thần hay muốn tự sát trên chiếc cầu ấy .
+trong những vụ tôi trực tiếp tham gia , tôi đã thất bại 2 lần , và nhiêu đó cũng đã là quá nhiều .
+một người là Jason .
+người kia là một đàn ông tôi đã trò chuyện trong 1 tiếng đồng hồ
+trong lúc nói chuyện , ông ấy đã bắt tay tôi 3 lần .
+lần cuối ông ta bắt tay tôi , ông ấy nhìn tôi và nói : " Kevin , rất tiếc , nhưng tôi phải đi. "
+rồi ông ấy nhảy xuống .
+dù vậy tôi vẫn muốn nói với các bạn , đa số những người mà chúng tôi đã tiếp cận trên cầu đã không tự vẫn .
+hơn nữa , rất ít người nhảy khỏi cầu và vẫn sống sót và có thể thoải mái chia sẻ chuyện đó. Số đó chỉ chiếm khoảng 1 - 2 % , và đa phần họ đều thú nhận rằng giây phút họ buông tay họ biết mình vừa phạm một sai lầm và họ muốn được tiếp tục sống .
+tôi nói với mọi người cây cầu không chỉ là kết nối giữa Marin và San Francisco , mà còn kết nối những con người nơi đó .
+mối liên kết , nhịp cầu do chúng ta làm nên là điều mà mỗi người trong chúng ta nên cố gắng vun đắp .
+tự sát là có thể ngăn chặn được .
+có sự nâng đỡ. Có niềm hy vọng .
+xin chân thành cảm ơn .
+tương tác thực tế và bóng đá chuyên nghiệp có liên hệ gì với sự đồng cảm ?
+và vận tốc trong không khí của một con én không tải là gì ?
+không may là hôm nay , tôi sẽ chỉ trả lời một trong số chúng , vì vậy , cố gắng đừng thất vọng nhé .
+hầu hết mọi người khi nghĩ về AR , đều nghĩ về phim Minority Report và Tom Cruice vẫy tay trong không khí , nhưng AR không phải là khoa học viễn tưởng .
+nó là thứ gì đó sẽ xảy ra bởi vì chúng ta có công cụ để biến nó thành hiện thực , mọi người cần phải biết điều đó , AR sẽ làm thay đổi cuộc sống của chúng ta như Internet và điện thoại di động đã từng .
+làm thế nào để có được AR ?
+bước đầu tiên thứ mà tôi đang đeo , Google Glass - GG .
+rất nhiều người trong ở đây đã quen thuộc với GG .
+cái mà có lẽ ít người biết là GG là một thiết bị cho phép bạn nhìn thấy thứ mà tôi nhìn thấy .
+tôi sẽ để bạn trải nghiệm cảm giác của một vận động viên chuyên nghiệp trên sân .
+cách duy nhất để bạn có thể ở đó là lắng nghe mô tả của tôi .
+tôi phải dùng từ ngữ ,
+tạo ra khuôn nền để bạn lấp đầy bằng trí tưởng tượng của mình .
+với GG , chúng ta có thể đặt nó dưới mũ bảo hiểm , và có cảm giác giống như chạy dưới sân 100 mét /giờ , máu dộng thình thịch trong tai .
+bạn cảm thấy như là có một người đàn ông nặng hơn trăm kí chạy ào về phía mình cố nghiền nát bạn bằng cân nặng của anh ta .
+tôi đã nhận cái kết đó , cảm giác không hay ho gì .
+hãy kiểm tra một vài đoạn phim .
+đi
+Ugh , bị cản phá thì thật là tồi tệ .
+từ từ , đến gần hơn .
+được chứ , sẵn sàng ?
+đi !
+có lẽ , bạn sẽ để ý đến những người vắng mặt : thành viên còn lại của đội bóng .
+chúng tôi có vài đoạn phim nhờ sự giúp đỡ của Đại học Washington .
+tiền vệ : này , Mice 54 ! Mice 54 !
+Blue 8 ! Blue 8 ! đi !
+Oh !
+người hâm mộ muốn trải nghiệm đó .
+họ muốn ở trên sân ,
+muốn là cầu thủ yêu thích của mình , và họ đã nói chuyện với tôi trên Youtube , Twitter : " anh có thể để nó vào chỗ cầu thủ chuyền bóng hay ôm bóng về không ?
+chúng tôi đã trải nghiệm nó với GoPro và GG , Làm sao để nhập vai hơn ? bước kế tiếp thế nào ?
+chúng tôi làm bước kế tiếp
+Oculus Rift được mô tả là một trong những thiết bị thực tế ảo thực tế nhất từng được tạo ra , không thổi phồng đâu nhé .
+tôi sẽ cho bạn thấy tại sao tôi lại nói vậy bằng đoạn phim này .
+người đàn ông : Oh ! Oh !
+không ! không ! không ! tôi không muốn chơi nữa ! không !
+trời ơi ! Aaaa !
+và đó là trải nghiệm trên tàu lượn siêu tốc cùng với nỗi sợ hãi của đời mình .
+họ sẽ thấy thế nào khi lao xuống sườn núi với vận tốc hơn 100 km/ giờ như là một vận động viên Olympic
+doanh số bán tã lót cho người lớn có thể tăng .
+nhưng đây chưa phải là AR .
+chỉ là hiện thực ảo .
+làm sao có được AR ?
+chúng ta có AR khi các huấn luyện viên , nhà quản lý và chủ sở hữu nhìn vào thông tin truyền tải trực tiếp thứ mà ta muốn thấy , và nói : " sử dụng cái này thế nào để ta có thể trở nên tốt hơn ?
+làm sao dùng cái này để chiến thắng ? "
+vì các đội luôn dùng công nghệ để chiến thắng .
+họ thích chiến thắng. Họ sẽ có tiền .
+lịch sử ngắn gọn về công nghệ trong NFL .
+vào năm 1965 , đội Baltimore Colts cho cầu thủ chuyền bóng vòng tay cho phép anh ta gọi lượt nhanh hơn .
+và họ đã chiến thắng ở giải Super Bowl năm đó .
+các đội khác đã làm theo .
+nhiều người xem hơn vì nó thú vị hơn .
+nhanh hơn .
+năm 1994 , NFL gắn máy vô tuyến vào mũ bảo hiểm của cầu thủ chuyền bóng sau đó là đội phòng vệ .
+nhiều người xem hơn vì nó nhanh hơn .
+thú vị hơn .
+năm 2013 , tưởng tượng bạn là cầu thủ trở lại cuộc hội ý bí mật và lượt chơi tiếp theo hiển thị ngay trước mặt bạn , trên tấm nhựa che mặt mà bạn đang mang .
+không còn sợ quên lượt .
+không còn phải lo lắng ghi nhớ sơ đồ chiến thuật .
+bạn chỉ cần ra đó và phản công .
+các huấn luyện viên muốn nó , bởi khi bỏ lỡ nhiệm vụ bạn sẽ thua và họ ghét việc thua cuộc .
+việc bại trận khiến họ bị sa thải .
+họ không muốn điều đó .
+nhưng AR không chỉ là một chiến thuật nâng cao .
+AR cũng là cách để lấy dữ liệu , sử dụng chúng trong thời gian thực để cải thiện cách thi đấu .
+nó sẽ trông như thế nào ?
+Lắp đặt rất đơn giản : máy quay phim ở mỗi góc sân vận động cho bạn nhìn toàn cảnh từ trên xuống phía dưới này .
+bạn cũng có thông tin từ cảm biến mũ bảo hiểm và máy đo gia tốc , công nghệ làm công việc của nó .
+bạn có thông tin , và truyền cho các cầu thủ
+truyền tốt là khi họ có thể sử dụng được .
+truyền không tốt sẽ gây quá tải thông tin .
+đó là khác biệt giữa đội tốt và không tốt .
+bộ phận IT của bạn cũng quan trọng như bộ phận trinh thám vậy , việc khai thác dữ liệu không chỉ dành cho mọt sách
+mà còn cho vận động viên thể thao. Ai biết được ?
+sẽ như thế nào trên sân bóng ?
+hình dung , bạn là cầu thủ chuyền bóng .
+bạn lùi lại
+nhìn quanh sân , tìm kiếm người đón bóng .
+đột nhiên , đèn flash sáng lên ở phía trái tấm che mặt cho bạn biết , cuối sân một cầu thủ đang lao tới .
+thường thì , bạn không thể thấy anh ta , nhưng hệ thống AR sẽ giúp bạn .
+bạn bị chèn .
+một đèn flash khác báo rằng có một sơ hở .
+bạn ném banh đi ngay lúc bị tấn công
+quả bóng văng ra khỏi sân .
+không rõ nơi tiếp đất .
+trên tấm che , người đón bóng thấy một đường cỏ sáng lên , anh ta biết rằng phải điều chỉnh .
+anh đi tới , bắt bóng , chạy nước rút , và ghi bàn .
+đám đông cuồng lên , và người hâm mộ sóng bước cùng anh , từ mọi góc nhìn .
+đây là thứ sẽ tạo ra phấn khích lớn trong các trận đấu ,
+lôi cuốn rất nhiều người theo dõi , bởi vì mọi người muốn trải nghiệm .
+người hâm mộ muốn được ở trên sân ,
+muốn là cầu thủ yêu thích của họ .
+AR sẽ là một phần của trận đấu , bởi vì nó quá có lợi .
+nhưng câu hỏi dành cho các bạn là , liệu chúng ta có sử dụng AR cho mọi thứ ?
+sử dụng nó chỉ vì lợi ích riêng , trò chơi , sự giải trí của ta như thường lệ ?
+tôi tin rằng , có thể sử dụng AR nhiều hơn thế .
+chúng ta có thể sử dụng AR như là cách thúc đẩy sự đồng cảm trong mỗi con người , theo nghĩa đen là , cho mọi người thấy sẽ thế nào khi đứng ở cương vị của người khác .
+công nghệ này đáng giá với các giải đấu ,
+có doanh thu , hàng tỷ đô - la một năm .
+công nghệ đáng giá thế nào với người đồng tính ở Ugandan hay Nga khi thể hiện với thế giới cuộc sống bị đàn áp của họ ?
+công nghệ đáng giá thế nào với một Tư lệnh Hadfiel hay một Neil deGrasse Tyson khi truyền cảm hứng cho thế hệ trẻ suy nghĩ nhiều hơn về không gian và khoa học thay vì báo cáo hàng quý và Kardashians ?
+thưa quý ông , quý bà , thời của AR đang đến .
+câu hỏi mà chúng ta hỏi , lựa chọn mà chúng ta chọn , thử thách mà chúng ta đối mặt tùy thuộc vào chúng ta .
+xin cảm ơn .
+tôi sinh ra trong một thị trấn bé xíu ở bang Victoria .
+tôi lớn lên trong điều kiện nuôi dạy bình thường .
+tôi đi học , chơi với bạn bè , cãi cọ với các em gái .
+tất cả đều rất đỗi bình thường .
+khi tôi lên 15 , công chức địa phương đến gặp cha mẹ tôi và bày tỏ ý muốn đề cử tôi nhận giải thành tựu vì cộng đồng .
+cha mẹ tôi nói rằng : " Hm , thật tuyệt làm sao , nhưng có một thực tế rõ ràng ,
+rằng con bé chẳng có thành tựu nào cả. Họ nói đúng , bạn biết đấy .
+tôi tới trường , đạt điểm tốt , tôi có công việc bình thường sau giờ học , tại tiệm làm tóc của mẹ tôi , tôi dành nhiều thời gian xem phim " Buffy the Vampire Slayer " và " Dawson ' s Creek. "
+vâng , tôi biết. Thật là ngược ngạo .
+nhưng họ nói đúng .
+nhiều năm sau , tôi đi dạy tại một trường trung học ở Melbourne khi dạy được khoảng 20 phút về nghiên cứu pháp luật một cậu nhỏ giơ tay : " cô ơi , khi nào thì cô phát biểu ? "
+" bài phát biểu nào vậy ? " , tôi hỏi .
+tôi đã nói với chúng về luật chống phỉ báng được khoảng 20 phút .
+thằng bé trả lời : " đại loại là bài nói chuyện truyền cảm hứng .
+khi ai đó ngồi xe lăn đến trường , họ thường nói những thứ truyền cảm hứng ? "
+" thường là ở trong hội trường lớn "
+đó là lúc tôi nhận ra : những đứa trẻ chỉ biết rằng những người tàn tật là những đối tượng truyền cảm hứng .
+với đứa trẻ này , không phải lỗi của nó , điều này đúng với nhiều người .
+với nhiều người chúng ta , người tàn tật không phải giáo viên hay bác sĩ hay thợ làm móng .
+chúng tôi không phải người thật. - mà là người để truyền cảm hứng .
+thực tế là , việc tôi đứng trên sân khấu này trên chiếc xe lăn này , bạn chắc hẳn cũng mong tôi sẽ truyền cảm hứng cho bạn. Phải không ? Yeah .
+vâng , thưa quý ông quý bà , tôi e rằng tôi sẽ làm mọi người tổn thương trầm trọng .
+tôi không ở đây để truyền cảm hứng .
+tôi ở đây để nói với bạn rằng ta đã bị lừa về sự tàn tật .
+đó không phải là điều xấu , và nó không biến bạn thành cá biệt ,
+vài năm gần đây , ta đã có thể truyền bá sự lừa dối này thậm chí là còn xa hơn thông qua phương tiện truyền thông đại chúng .
+bạn có thể đã thấy những thứ thế này : Khiếm khuyết duy nhất trong cuộc sống
+là một thái độ tồi. " Hoặc : " sự biện minh của bạn
+không có giá trị. " Thật vậy. Hay " Trước khi từ bỏ , hãy cố gắng ! "
+đây chỉ là một vài ví dụ , có rất nhiều hình tương tự ngoài kia .
+bạn có thể thấy một bé gái không có tay vẽ một bức tranh với cây bút chì trên miệng .
+bạn có thể thấy một đứa trẻ chạy trên đôi chân giả bằng sợi carbon .
+những hình ảnh này , rất nhiều ngoài kia , chúng tôi gọi là " phim heo " truyền cảm hứng .
+tôi sử dụng từ " phim heo " một cách có chủ ý , bởi vì họ sử dụng một nhóm người cho lợi ích của một nhóm khác .
+trong trường hợp này , họ dùng người tàn tật cho lợi ích của nhóm người không tàn tật .
+mục đích của những hình này là để truyền cảm hứng , khuyến khích bạn từ đó , ta có thể nhìn vào họ và nghĩ : " vâng , dù cuộc sống của tôi có tệ thế nào , nó có thể đã tệ hơn .
+mình có thể đã là người đó "
+nhưng nếu bạn là những người đó thì sao ?
+tôi đã không thể đếm xuể số lần bị người lạ tiếp cận nói với tôi là họ nghĩ tôi can đảm hay truyền cảm hứng , chuyện này xảy ra từ rất lâu trước khi tôi có lí lịch công khai .
+họ như thể chúc mừng tôi vì nỗ lực thức dậy vào buổi sáng và nhớ được tên của mình. Cái này là khách quan .
+những hình ảnh dùng người tàn tật cho lợi ích của người bình thường .
+họ ở đó nên bạn có thể nhìn vào họ và nghĩ rằng vấn đề không quá tệ với mình , để quẳng đi nỗi lo sợ .
+thực ra , cuộc sống của người tàn tật hơi khó khăn một tí .
+chúng tôi phải vượt qua một vài điều .
+nhưng những điều mà chúng tôi đang vượt qua không như bạn nghĩ .
+không có vấn đề gì với cơ thể của chúng tôi .
+tôi dùng từ " người tàn tật " là có chủ ý , bởi vì tôi khá bất ngờ với hình mẫu xã hội về sự tàn tật , rằng chúng tôi tàn tật bởi cách nhìn nhận của xã hội hơn là vì thân thể và sự chuẩn đoán của chính mình .
+tôi sống với thân thể này trong thời gian dài
+và khá là thích nó .
+nó làm những thứ mà tôi muốn nó làm , và tôi học cách tận dụng nó , như bạn , đó là vấn đề của những đứa trẻ trong hình .
+chúng chẳng làm điều gì khác thường cả .
+chúng chỉ sử dụng thân thể của chúng một cách tối ưu nhất mà thôi .
+có công bằng không khi nhìn nhận chúng theo cách mà ta thường làm , khi chia sẻ những hình ảnh này ?
+mọi người , khi họ nói : " bạn là nguồn cảm hứng " họ có ý khen ngợi .
+và tôi biết vì sao nó xảy ra .
+bởi vì sự lừa dối đó , vì ta đã gieo rắc sự lừa dối rằng tàn tật khiến bạn đặc biệt .
+tôi đứng trên này chối từ sự truyền cảm hứng , và bạn nghĩ : " Ôi , Stella , không phải đôi khi bạn lấy cảm hứng từ một số điều sao ?
+có chứ .
+tôi luôn học hỏi từ những người tàn tật khác .
+tôi không học được rằng mình may mắn hơn , dù là có .
+mà thay vào đó là ý tưởng thiên tài : dùng kẹp thịt nướng để nhặt những thứ mà tôi đánh rơi. Tôi học được mẹo sạc pin điện thoại từ pin của xe lăn .
+thiên tài .
+chúng tôi học hỏi từ thế mạnh và sức chịu đựng của nhau , chứ không phải chống lại thân thể hay triệu chứng. nhưng mà chống lại một thế giới mà cá biệt hoá và khách quan hoá chúng tôi .
+tôi nghĩ rằng sự dối trá mà ta gieo rắc về sự tàn tật là sự bất công to lớn nhất .
+nó khiến cuộc sống của chúng tôi trở nên khó khăn hơn .
+và câu nói : " Khiếm khuyết duy nhất trong cuộc sống là một thái độ tồi , " lí do thật là vớ vẩn bởi vì nó không đúng , bởi vì hình mẫu xã hội về sự tàn tật là sai .
+cười vào bậc thang không biến nó thành con đường .
+không thể nào .
+tôi muốn sống trong một thế giới nơi người tàn tật - không là ngoại lệ , mà là chuẩn mực .
+tôi muốn sống trong một thế giới nơi bé gái 15 tuổi ngồi trên giường xem phim " Buffy the Vampire Slayer " không được xem như là " có thành tựu " vì nó chỉ đang ngồi xem phim .
+tôi muốn sống trong thế giới nơi ta bày tỏ sự tôn trọng đối với người tàn tật như thể chúc mừng họ tự ra khỏi giường và nhớ được tên mình vào buổi sáng
+tôi muốn sống trong thế giới nơi ta trân trọng những thành tựu thực của người tàn tật , tôi muốn sống trong thế giới nơi một đứa trẻ 11 tuổi ở trường trung học Melbourne không bất ngờ khi cô giáo của nó ngồi trên một chiếc xe lăn .
+sự tàn tật không khiến bạn trở thành ngoại lệ , nhưng chất vấn bản thân về nó sẽ khiến bạn trở thành ngoại lệ .
+cảm ơn
+vào ngày 05/11/1990 , một người đàn ông tên El - Sayyid Nosair bước vào mô ̣ t khách sạn ở Manhattan và sát hại Rabbi Meir Kahane , thủ lĩnh Liên minh Pho ̀ ng Thu ̉ ngươ ̀ i Hồi Giáo .
+ban đâ ̀ u Nosair đươ ̣ c cho la ̀ vô tô ̣ i , nhưng trong thơ ̀ i gian thu ̣ a ́ n mô ̣ t tô ̣ i danh nho ̉ hơn , hắn và đồng bọn bắt đâ ̀ u lên kế hoạch tấn công một loạt các công trình quan trọng ở New York , bao gồm đường hầm , toà nhà giáo hội Hồi Giáo và trụ sở chính Liên Hợp Quốc .
+may thay , kế hoạch đó bị phanh phui nhờ một người đưa tin của FBI .
+chỉ tiếc rằng , kế hoạch đánh bom năm 1993 va ̀ o Trung Tâm Thương Mại Thế giới lại không bị phát hiện .
+tôi sinh ra ở Pittsburgh , bang Pennsylvania năm 1983 bởi ông , một kĩ sư người Ai Cập và người mẹ yêu dấu là giáo viên tiểu học người Mỹ. Họ đa ̃ cô ́ gă ́ ng cho tôi mô ̣ t tuô ̉ i thơ tô ́ t đe ̣ p nhâ ́ t .
+mo ̣ i thư ́ thay đô ̉ i khi tôi lên 7 , mô ́ i quan hê ̣ trong gia đi ̀ nh bă ́ t đâ ̀ u thay đô ̉ i .
+cha cho tôi tiếp xúc với một bộ mặt cu ̉ a ngươ ̀ i Hô ̀ i Gia ́ o , ma ̀ râ ́ t i ́ t ngươ ̀ i biê ́ t đến. Kinh nghiê ̣ m cu ̉ a tôi cho thấy
+Tuy nhiên , ở mô ̃ i mô ̣ t tôn giáo , mỗi mô ̣ t dân tộc , bạn sẽ thấy có một cơ số nhỏ những người có đức tin mãnh liệt đến nỗi họ thấy rằng cần phải dùng mọi cách để khiến người khác cũng sống như họ .
+chúng tôi đến bãi tập bắn Calverton , không ai trong chu ́ ng tôi biết rằng mình đang bị FBI theo dõi .
+hôm đó , viên đa ̣ n cuối cùng mà tôi bắn đã trúng chiếc đèn màu cam nằm trên đỉnh mục tiêu và trong sự kinh ngạc của mọi người , đặc biệt là cu ̉ a tôi mu ̣ c tiêu nô ̉ tung .
+bọn họ cười vang trước lời nhận xét đó , nhưng pha ̉ i đến vài năm sau tôi mơ ́ i hiểu hết ý nghĩa của tràng cười đó .
+họ nghĩ họ thấy ở tôi sự phá hủy tương tự như ơ ̉ cha tôi .
+những người đó cuối cùng cũng bị kết án vi ̀ đã đặt một xe tải chở gần 700kg thuốc nổ ơ ̉ tâ ̀ ng trê ̣ t ba ̃ i đỗ xe tòa tháp Bắc trung tâm thương mại thế giới , gây nên vụ nổ giết chết 6 người và la ̀ m hơn 1000 người khác bị thương .
+đây là những người mà tôi kính trọng ,
+như ̃ ng ngươ ̀ i tôi go ̣ i la ̀ " ammu " , nghi ̃ a la ̀ chu ́ .
+va ̀ o năm lên 19 , tôi đã chuyển nhà được 20 lần trong đời , chính vì sự bất ổn suốt thời thơ ấu đó tôi đã không có nhiều cơ hội đê ̉ kê ́ t ba ̣ n .
+khi bă ́ t đâ ̀ u kê ́ t thân đươ ̣ c vơ ́ i ai đó cũng là lúc tôi gói ghém đồ đạc và chuyển đến nơi khác .
+vì luôn là học sinh mới trong lớp , tôi thường xuyên bị bắt nạt .
+thế nên hầu hết thời gian , tôi ở nhà , đọc sách , xem TV hoặc chơi điện tử .
+vì những lí do đó , tôi thiếu đi những kĩ năng xã hội , nói một cách nhẹ nhàng , lớn lên trong một gia đình có đức tin mù quáng , thế giới thực dường như không dành cho tôi .
+tôi được dạy để phán xét người khác dựa trên những tiêu chi ́ độc đoán , như chủng tộc hoặc tôn giáo .
+vậy , cái gì đã khiê ́ n tôi thư ́ c ti ̉ nh ?
+một trong những trải nghiệm đầu tiên làm thay đổi tư tưởng này là cuộc bầu cử tổng thống năm 2000 .
+thông qua một chương trình dự bị đại học , tôi đã được tham gia Hội nghị thanh niên quốc gia ở Philadelphia .
+trọng tâm của nhóm tôi là về bạo lực trong giới trẻ , từng là nạn nhân của trò bắt nạt trong một thời gian dài , đây là chủ đề khiến tôi cảm thấy cực kì hứng thú .
+thành viên trong nhóm chúng tôi đến từ râ ́ t nhê ̀ u tâ ̀ ng lơ ́ p .
+một ngày trước bế mạc hội nghị , tôi phát hiện ra một trong số những đứa trẻ tôi kết thân là người Do Thái .
+thư ̣ c sư ̣ thi ̀ , cần nhiều ngày để tôi co ́ thê ̉ hiê ̉ u ra , nhưng tôi nhận ra rằng chẳng có sự thù địch tự nhiên nào giữa hai chúng tôi ca ̉ .
+tôi đươ ̣ c tiê ́ p xu ́ c vơ ́ i như ̃ ng ngươ ̀ i từ tâ ́ t ca ̉ ca ́ c đức tin va ̀ văn ho ́ a , trải nghiê ̣ m đo ́ la ̀ nê ̀ n mo ́ ng cho viê ̣ c hi ̀ nh tha ̀ nh ti ́ nh ca ́ ch sau này cu ̉ a tôi .
+Bơ ̉ i vi ̀ ca ̉ m gia ́ c đo ́ , tôi mơ ́ i co ́ thê ̉ so sa ́ nh như ̃ ng hi ̀ nh mâ ̃ u đươ ̣ c da ̣ y khi co ̀ n nho ̉
+vơ ́ i như ̃ ng kinh nghiê ̣ m va ̀ tương ta ́ c trong cuô ̣ c sô ́ ng thâ ̣ t. Tôi không biê ́ t ngươ ̀ i đô ̀ ng ti ́ nh la ̀ như thê ́ na ̀ o , nhưng tôi hiểu ca ̉ m gia ́ c bi ̣ đa ́ nh gia ́
+vi ̀ mô ̣ t thư ́ vượt ngoa ̀ i tâ ̀ m kiê ̉ m soa ́ t cu ̉ a tôi .
+tôn gia ́ o hay giơ ́ i ti ́ nh cu ̉ a mô ̣ t ngươ ̀ i hoa ̀ n toa ̀ n không liên quan gi ̀ đê ́ n nhân ca ́ ch cu ̉ a ho ̣ . ông â ́ y như mô ̣ t ngươ ̀ i cha khi tôi câ ̀ n cha nhâ ́ t. Ca ̉ m hư ́ ng thươ ̀ ng đê ́ n tư ̀ như ̃ ng nơi không ngơ ̀ tới nhất ,
+va ̀ sư ̣ thâ ̣ t là mô ̣ t diê ̃ n viên ha ̀ i ngươ ̀ i Do Tha ́ i a ̉ nh hươ ̉ ng tốt đê ́ n thê ́ giơ ́ i quan cu ̉ a tôi nhiều hơn là ngươ ̀ i cha cư ̣ c đoan. Mô ̣ t nga ̀ y no ̣ , tôi no ́ i vơ ́ i me ̣ vê ̀ sự thay đô ̉ i trong ca ́ ch tôi nhi ̀ n nhâ ̣ n thê ́ giơ ́ i ,
+va ̀ ba ̀ no ́ i vơ ́ i tôi mô ̣ t điê ̀ u ma ̀ tôi se ̃ luôn nhơ ́ ma ̃ i trong tim. Bà nhi ̀ n tôi vơ ́ i đôi mă ́ t mê ̣ t mo ̉ i cu ̉ a mô ̣ t ngươ ̀ i tư ̀ ng tra ̉ i qua qua ́ nhiê ̀ u chu ̉ nghi ̃ a gia ́ o ly ́ , va ̀ no ́ i :
+" me ̣ qua ́ mê ̣ t mo ̉ i vi ̀ pha ̉ i ghe ́ t ngươ ̀ i kha ́ c rô ̀ i. " Trong khoa ̉ nh khă ́ c â ́ y , tôi nhâ ̣ n ra ră ̀ ng cần nhiều năng lươ ̣ ng
+như thê ́ na ̀ o đê ̉ duy tri ̀ lo ̀ ng thu ̀ hâ ̣ n trong bạn .
+Zak Ebrahim không pha ̉ i la ̀ tên thâ ̣ t cu ̉ a tôi. Tôi đã đô ̉ i tên khi gia đi ̀ nh tôi quyê ́ t đi ̣ nh châ ́ m dư ́ t mo ̣ i quan hê ̣ vơ ́ i cha va ̀ bă ́ t đâ ̀ u mô ̣ t cuô ̣ c sô ́ ng mơ ́ i .
+vâ ̣ y tại sao tôi lại nói ra câu chuyê ̣ n cu ̉ a mi ̀ nh va ̀ lao đầu vào nguy hiê ̉ m ?
+râ ́ t đơn gia ̉ n ,
+thay va ̀ o đo ́ , tôi cho ̣ n sư ̉ du ̣ ng kinh nghiê ̣ m cu ̉ a mi ̀ nh đê ̉ đâ ́ u tranh vơ ́ i khu ̉ ng bô ́ , va ̀ vơ ́ i sư ̣ cuô ̀ ng tin .
+tôi la ̀ m điê ̀ u na ̀ y vi ̀ như ̃ ng na ̣ n nhân cu ̉ a khu ̉ ng bô ́ va ̀ ngươ ̀ i thân cu ̉ a ho ̣ , vi ̀ như ̃ ng nô ̃ i đau va ̀ mâ ́ t ma ́ t ma ̀ khu ̉ ng bô ́ đa ̃ gây ra .
+vi ̀ như ̃ ng na ̣ n nhân na ̀ y , tôi se ̃ lên tiê ́ ng chô ́ ng la ̣ i như ̃ ng ha ̀ nh đô ̣ ng vô nghĩa va ̀ lên a ́ n ha ̀ nh đô ̣ ng cu ̉ a cha tôi .
+vơ ́ i sư ̣ thâ ̣ t đo ́ , tôi đư ́ ng đây để minh chư ́ ng ră ̀ ng ba ̣ o lư ̣ c không pha ̉ i la ̀ vô ́ n co ́ trong tôn gia ́ o hay chu ̉ ng tô ̣ c va ̀ con trai không cần pha ̉ i đi theo con đươ ̀ ng của cha anh ta .
+tôi không pha ̉ i la ̀ cha tôi .
+ngay lúc này Một bộ phim đang phát ngay trong đầu các bạn .
+đó là một bộ phim nhiều phần tuyệt vời
+nó có hình ảnh 3D và âm thanh nổi cho những thứ mà các bạn đang nhìn và nghe thấy ngay lúc này , nhưng đó mới chỉ là bắt đầu .
+bộ phim đó có cả mùi , vị và xúc giác .
+nó có cảm giác của cơ thể , đau đớn , đói khát , khoái cảm .
+nó có những cảm xúc. giận dữ và hạnh phúc .
+nó có những ký ức , giống như những kỷ niệm thời thơ ấu đang phát trước mắt bạn .
+và nó có những giọng nói liên tục thuyết minh trực tiếp trong dòng suy nghĩ của các bạn .
+trung tâm của bộ phim chính là bạn. đang trực tiếp trải qua tất cả những thứ đó .
+bộ phim này là dòng ý thức của các bạn là đối tượng của trải nghiệm tâm trí và cả thế giới ,
+ý thức là một trong những bằng chứng cơ bản nhất về sự tồn tại của con người .
+ai cũng có nhận thức
+chúng ta đều có bộ phim của riêng mình , bạn , bạn và cả bạn .
+chúng ta không biết gì khác trực tiếp hơn
+ít nhất , tôi biết ý thức của bản thân một cách trực tiếp
+tôi không thể chắc chắn rằng các bạn ý thức được
+nhận thức cũng là cái làm cho cuộc sống đáng sống .
+nếu chúng ta không có nhận thức , mọi thứ trong cuộc sông trở nên vô nghĩa và vô giá trị
+nhưng đồng thời , chính nhận thức là hiện tượng bí ẩn nhất trong vũ trụ
+tại chúng ta không đơn giản chỉ là những robot những thứ có thể xử lý tất cả những dữ kiện và đưa ra các phản ứng , mà không trải nghiệm bộ phim bên trong đó ?
+hiện nay , chưa có ai biết câu trả lời cho những câu hỏi trên .
+tôi cho rằng để đưa nhận thức vào nghiên cứu , sẽ cần có nhiều ý tưởng cấp tiến mới .
+có người nói rằng nghiên cứu về nhận thức là bất khả thi .
+bởi vì , bản thân khoa học là sự khách quan .
+còn nhận thức , bản chất là sự chủ quan .
+do đó không bao giờ có một môn khoa học của nhận thức .
+quan điểm đó thống trị suốt thế kỷ 20
+các nhà tâm lý học nghiên cứu hành vi một cách khách quan , các nhà thần kinh học nghiên cứu não bộ cũng vậy. và không một ai nhắc gì tới nhận thức .
+thậm chí 30 năm trước , khi TED bắt đầu , có rất ít nghiên cứu khoa học về nhận thức .
+bây giờ , khoảng 20 về năm trước , Mọi thứ bắt đầu thay đổi .
+các nhà thần kinh học như Francis Crick và các nhà vật lý như Roger Penrose nói rằng bây giờ là thời điểm để cho khoa học tấn công vào nhận thức .
+kể từ đó , đã có một sự bùng nổ thật sự , nở rộ các công trình khao học trong lĩnh vực này .
+các công trình này thật tuyệt vời. thật sự rất tuyệt .
+Tuy nhiên , cho đến nay vẫn còn những giới hạn cơ bản
+chúng ta đã thấy được nghiên cứu này của Nancy Kanwisher , chúng thật tuyệt vời cô ấy mời thuyết trình cách đây ít phút .
+hiện nay , chúng ta có một hiểu biết tốt hơn , ví dụ , Những vùng của não bộ liên quan tới trải nghiệm ý thức về nhận ra các gương mặt hay cảm giác đau , hoặc cảm giác hạnh phúc .
+nhưng đây mới chỉ là khoa học về các mối tương quan
+nó không phải là khoa học giải thích .
+chúng ta biết rằng những vùng não bộ nào liên quan tới trải nghiệm nhận thức nào , nhưng chúng ta không biết tại sao lại như vậy .
+tôi muốn đưa điều này bằng cách nói rằng các công trình trong lĩnh vực thần kinh học đang trả lời một số câu hỏi mà chúng ta muốn biết về nhận thức , như ̃ ng thă ́ c mă ́ c về ca ́ c vu ̀ ng của bộ não , chu ́ ng la ̀ m gi ̀ và chúng liên hệ với cái gì .
+Tuy nhiên , theo một nghĩa nào đó , đó là những câu hỏi dễ dàng .
+không liên quan tới các nhà thần kinh học .
+thực sự , không có câu hỏi nào là dễ dàng với nhận thức .
+nhưng nó không giải quyết được bí ẩn thực sự ở cốt lõi của vấn đề. Tại sao tất cả các quá trình vật lý xảy ra trong não bộ lại đi kèm với nhận thức ?
+tại sao lại có bộ phim bên trong đó ?
+hiện nay , chúng ta thực sự không có manh mối nào .
+và các bạn có thể nói rằng , hãy cho các nhà thần kinh học thêm vài năm nữa .
+nhưng hóa ra đó lại là một hiện tượng tự phát khác như những vụ kẹt xe , những cơn bão , hay như cuộc sống vậy , và chúng ta sẽ đi tìm hiểu nó .
+những trường hợp điển hi ̀ nh về sự tự phát là mọi hành vi tự phát , Một vụ tắc đường diễn biến thế nào cách mà một cơn bão hoạt động , một sinh vật sống sinh sôi thích nghi và trao đổi chất ra sao , tăt cả câu hỏi về hoạt động khách quan .
+chúng ta có thể áp dụng cho não người trong việc giải thích một số hành vi và chức năng của nó như là hiện tượng tự phát : cách chúng ta đi lại , nói chuyện , cách chúng ta chơi cờ , và mọi câu hỏi khác về hành vi .
+nhưng khi nói tới nhận thức , các câu hỏi về hành vi là một trong trong những vấn đề dễ dàng
+khi nói tới vấn đề khó , đó là câu hỏi tại sao mọi hành vi đo ́ la ̣ i đi kèm với cảm giác chủ quan ?
+và ở đây , mô hình tiêu chuẩn của sự tự phát thậm chí các mô hình chuẩn trong thần kinh học cho đến nay , không có gi ̀ nhiều để nói .
+bây giờ , tôi là một người theo chủ nghĩa duy vật
+tôi muốn có một lý thuyết khoa học về nhận thức mà có thể hoạt động. và trong một thời gian dài , tôi cảm thấy vô vo ̣ ng trong viê ̣ c tìm kiếm một lý thuyết vê ̀ nhâ ̣ n thư ́ c dựa trên các hiện tượng vật lý ma ̀ hoa ̣ t đô ̣ ng đươ ̣ c .
+nhưng cuối cùng tôi co ́ thê ̉ kết luận rằng lý thuyết như vậy là không thể vì những lý do mang tính hệ thống
+tôi nghĩ chúng ta đang bế tắc tại điểm này .
+chúng ta đã có một loạt các giải thích tuyệt vời chúng ta quen với nó , Vật lý giải thích Hóa học hóa học giải thích sinh học sinh học giải thích những khía cạnh của tâm lý
+nhưng nhận thức có vẻ như không phù hợp trong bức tranh này
+một mặt , nó là một dữ kiện mà chúng ta nhận thức được
+mặt khác , chúng ta không biết cách để đưa nó vào trong quan điểm khoa học về thế giới của chúng ta
+do đó , tôi nghĩ rằng nhận thức là thứ gì đó dị thường chúng ta rất muốn lồng ghép nó vào trong thế giới quan của chúng ta , nhưng chúng ta vẫn không biết cách .
+đối mặt với một thứ dị thường như thế này , sẽ cần những ý tường cấp tiến và thôi nghĩ rằng chúng ta sẽ cần một hoặc hai ý tướng ban đầu , nghe có vẻ điên khùng trước khi chúng ta hiểu biết một cách khoa học .
+bây giờ , có vài ứng cử viên cho ý tưởng điên rồ này .
+bạn tôi Dan Dennett người có mặt hôm nay , cũng có ý tưởng đó .
+ý kiến điên rồ của anh ta đó là không có gì khó trong vấn đề nhận thức .
+toàn bộ ý tưởng về bộ phim chủ quan trong đầu chúng ta liên quan đến sự ảo tưởng hay sự mơ hồ .
+quả thật , những gì chúng tôi làm là để giải thích chức năng mục tiêu , cách thức hoạt động của não , và sau đó chúng tôi giải thích những thứ cần được giải thích .
+tôi có thể nói rằng , anh ấy thật đáng để khích lệ .
+đó là một loại tư tưởng tiến bộ mà chúng ta cần khám phá nếu bạn muốn có một lý luận thuần túy về lý thuyết não bộ cho ý thức .
+cùng thời điểm này , với tôi cũng như nhiều người khác , quan điểm này còn khá đơn giản để phủ nhận những dữ liệu về sự ý thức một cách thỏa đáng .
+và tôi sẽ đi tiếp vào một luận điểm mới .
+trong thời gian còn lại , tôi muốn khai thác 2 ý tưởng điên rồ mà tôi nghĩ là sẽ có vài sự hứa hẹn .
+ý tưởng điên rồ đầu tiên đó là nhận thức là một điều rất cơ bản .
+các nhà vật lý học thường lấy những khía cạnh của vật lí để xây dựng nền tảng cho : không gian , thời gian và khối lượng .
+họ đặt ra những luật cơ bản để thực hiện chúng như trọng lực hay lượng tử cơ học .
+những đặc tính và quy luật này cũng chưa được giải thích bằng những khái niệm cơ bản hơn
+thay vào đó , họ xem đó là những thứ căn bản nhất và định nghĩa mọi thứ từ chúng
+đôi khi , những khái niệm cơ bản được phát triển thêm
+trong thế kỉ 19 , Maxwell đã cho rằng bạn không thể giải thích hiện tượng điện từ bằng những khái niệm cơ bản như không gian , thời gian , khối lượng , đinh luật Newton vì thế ông ấy đã đặt ra định luật cơ bản về điện từ và đặt ra sự tích điện như là một nguyên tố cơ bản theo những quy luật đã có này .
+tôi nghĩ rằng điều chúng ta đang đề cập chính là nhận thức .
+nếu bạn không giải thích được sự ý thức theo những thuật ngữ cơ bản nhất không gian , thời gian , khối lượng , sự tích điện thì theo logic mà nói , chúng ta cần mở rộng danh sách đó .
+và điều tự nhiên nhất cần làm là xem ý thức như một thứ rất căn bản , như 1 phần căn bản của tự nhiên .
+điều này không có nghĩa là bạn không thể nghiên cứu nó .
+điều này sẽ mở ra hướng đi để bạn có thể nghiên cứu .
+cái chúng ta cần làm đó là học những quy luật cốt lõi về điều chỉnh ý thức những quy luật kết nối ý thức với những thứ khác : không gian , thời gian , khối lượng , những định luật vật lý .
+các nhà vật lý thường cho rằng họ muốn những quy luật cốt yếu thật sự đơn giản để họ có thể viết nó trên mặt trước của của một cái áo .
+tất nhiên tôi cho rằng tình huống như thế liên quan đến ý thức .
+chúng ta muốn tìm ra quy luật cốt lõi thật đơn giản để chúng ta viết chúng lên áo .
+chúng ta không biết định luật này có tồn tại hay chưa nhưng đó lại là điều chúng ta cần làm .
+ý tưởng điên thứ 2 nhận thức mang tính phổ biến .
+mỗi hệ thống có một mức độ riêng liên quan đến nhận thức .
+quan điểm này gọi là panpsychism : pan cho tất cả , và psych cho tâm trí , mọi thực thể đều là ý thức , không chỉ con người , con chó , con chuột , con ruồi , thậm chí những con vi khuẩn của Rob Knight hay những hạt cơ bản .
+thậm chí 1 hạt photon cũng có mức độ nhận thức riêng .
+ý tôi không phải là những hạt photon này thông minh hay nó biết suy nghĩ .
+nó không phải hạt photon đang tàn phá thế giới bởi vì nó nghĩ , " Aww , tôi luôn bay vòng vòng với tốc độ ánh sáng .
+tôi chưa bao giờ sống chậm và ngửi hương thơm hoa hồng "
+không , không phải như vậy .
+nhưng những hạt photon có thể có một số yếu tố về cảm giác chủ quan , một số tiền đề nguyên thủy đối với ý thức .
+điều này có lẽ hơi kì cục với bạn .
+ý tôi , tại sao mọi người lại nghĩ nó là một thứ điên rồ ?
+một vài động lực đến từ những ý tưởng điên rồ ban đầu , mà ý thức đóng vai trò cốt lõi
+nếu nó giữ vai trò cốt lõi , như không gian và thời gian và khối lượng nó tự nhiên cũng sẽ trở thành phổ biến , theo cách của chúng .
+nó sẽ không xứng đáng mặc dù ý kiến dường như phản lại chúng ta , nó sẽ ít tương phản hơn vơ ́ i như ̃ ng ngươ ̀ i tư ̀ như ̃ ng nê ̀ n văn ho ́ a kha ́ c nhau , nơi tâm trí con người dường như co ́ nhiê ̀ u sự kết nối liên tục với tự nhiên .
+một sự thúc đẩy sâu xa hơn đến từ ý tưởng này là có lẽ những cách đơn giản nhất và ma ̣ nh me ̃ nhất để tìm ra những quy luật cơ bản liên quan đến ý thức bă ̀ ng xư ̉ ly ́ vâ ̣ t ly ́ là sự kết nối ý thức với thông tin .
+bất cứ nơi nào có sự hiện diê ̣ n của xư ̉ ly ́ thông tin , nơi đó sẽ có ý thức .
+trong 1 người , việc tiếp nhận những thông tin phức tạp , thì đòi hỏi ý thức phức tạp .
+sự tiếp nhận những thông tin đơn giản , cần ý thức đơn giản .
+một điều thú vị là trong những năm gần đây một nhà thần kinh học , Giulio Tononi đa ̃ dư ̣ a trên ly ́ thuyê ́ t na ̀ y và phát triển nó một cách chặt chẽ với lý thuyết toán học .
+ông ấy có 1 phe ́ p đo lươ ̀ ng toa ́ n ho ̣ c cho viê ̣ c kê ́ t nô ́ i thông tin ông ấy gọi là phi , thứ giúp đo lường lượng thông tin được ti ́ ch hơ ̣ p trong hệ thống .
+và ông ta cho rằng phi gắn liền với ý thức
+vì thế trong não con người , có một số lượng lớn sư ̣ ti ́ ch hơ ̣ p thông tin , ở mức độ cao của phi , và của ý thức .
+trong một con chuột , ở mức nhập thông tin trung bi ̀ nh vẫn khá quan trọng , và cũng liên quan đến sự ý thức .
+nhưng khi bạn ha ̣ xuô ́ ng như ̃ ng thư ́ như sâu bo ̣ vi khuẩn , hạt vật chất , số lượng phi giảm mạnh .
+số lượng thông tin nhập vào cũng giảm , nhưng không phải là về con số 0
+theo định lý của Tononi , vẫn có thể về không độ của ý thức .
+trong sự ảnh hưởng này , ông ấy nêu ra quy luật cốt lõi của ý thức : phi cao , ý thức cao .
+bây giờ , tôi không biết nếu học thuyết na ̀ y là đúng , nhưng nó sẽ có thể dẫn đến một học thuyết trong khoa học về ý thức , và nó được dùng để nhập những nhánh thông tin của dữ liệu khoa học , và nó có một đặc tính tốt thứ mà trên thực tế đủ đơn giản để bạn có thể viết chúng lên mặt trước của áo
+một đô ̣ ng lư ̣ c cuối cùng khác là panpsychism có thể giúp bạn nhập ý thức vào thế giới vâ ̣ t châ ́ t .
+những nhà vật lý và nhà tâm lý học thường thừa nhận rằng vật lí là một thứ gây tò mò .
+nó mô tả cấu trúc thật sự của một chuỗi phương trình , nhưng nó không nói rõ về sự thật ẩn bên trong nó .
+như Stephen Hawking dùng nó , thế cái gì đã được dùng trong phương trình ?
+tốt , theo quan điểm của panpsychist , bạn có thể để phương trình theo cách của chúng nhưng bạn cũng có thể mang chúng ra để miêu tả như một dòng ý thức .
+cái mà vật lý thư ̣ c sư ̣ đang làm , đang mô tả dòng ý thức
+theo quan điểm này , nó chính là ý thức thứ được đặt trong những phương trình .
+theo đó , ý thức không bám sát theo thế giới bên ngoài giô ́ ng như đươ ̣ c gă ́ n thêm va ̀ o .
+no ́ thư ̣ c sư ̣ đang ơ ̉ đo ́
+tôi nghĩ đây là quan điểm panpsychist , thứ có tiềm năng tôn lên mối quan hệ cu ̉ a chu ́ ng ta với tự nhiên , và nó có thể có hàng loạt hệ quả mang tính đạo đức và xã hội .
+một vài điều có thể đi ngược lại .
+tôi thường nghĩ tôi không nên ăn bất cứ thứ gì những thứ có ý thức , Thế thì tôi đã thành một người ăn chay trường .
+bây giờ , nếu bạn là panpsychist và bạn cùng quan điểm đó , Bạn có thể sẽ bị đói dài dài .
+vì thế tôi cho rằng khi bạn nghĩ về điều này , nó sẽ tôn lên những quan điểm của bạn , trong khi đó vấn đề liên quan đến mục đích đạo đức tôn vinh phẩm hạnh , thực tế không ảnh hưởng nhiều bởi ý thức , nhưng nó liên quan đến mức độ và sự phức tạp trong ý thức .
+hoàn toàn không gì lạ khi no ́ i về ý thức trong như ̃ ng hê ̣ thô ́ ng kha ́ c , như ma ́ y ti ́ nh chă ̉ ng ha ̣ n .
+thế còn hệ thống thông minh nhân tạo trong bộ phim " Her " , Samantha thì sao ?
+cô ta có ý thức ?
+tốt , nếu bạn lấy thông tin theo quan điểm panpsychist , cô ấy chắc chắn gặp rắc rối trong việc nhập và mở rộng thông tin , vì vậy câu trả lời dĩ nhiên là có , cô ta có ý thức .
+nếu nó đúng , nó sẽ tạo nên hàng loạt vấn đề đạo đức cả về đạo đức của việc phát triển hệ thống máy tính thông minh va ̀ đa ̣ o đư ́ c khi tă ́ t bo ̉ như ̃ ng hê ̣ thô ́ ng đo ́ .
+cuối cùng bạn có thể sẽ hỏi về ý thức theo cách tổng thể , hành tinh .
+Canada có nhận thức riêng
+hay ở một cấp độ cục bộ là một nhóm tích hợp như khán giả trong hội nghị TED , hiện giờ đang có một sự tiếp thu ý thức TED , một bộ phim nô ̣ i ta ̣ i cho nhóm thu thập TED thứ hoàn toàn khác với những bộ phim nô ̣ i ta ̣ i kha ́ c so với những phần khác ?
+tôi không biết câu trả lời cho câu hỏi đó , nhưng tôi nghĩ ít nhất mô ̣ t trong số chúng ta có câu trả lời một cách đúng đắn .
+okay , với cái nhìn theo panpsychist , nó là một điều hết sức căn bản , mà tôi không thể tìm ra câu trả lời chính xác nhất .
+tôi hoàn toàn tự tin về ý tưởng điên rồ đầu tiên , rằng nhận thức là một kha ́ i niê ̣ m cơ ba ̉ n , hơn ý tưởng thứ 2 , nó chỉ mang tính phổ biến .
+theo ý tôi , quan điểm trên đặt ra nhiều câu hỏi , nhiều thách thức , vi ́ du ̣ như la ̀ m sao như ̃ ng y ́ thư ́ c nho ̉ le ̉ co ́ thê ̉ gô ̣ p la ̣ i tha ̀ nh loại ý thức phức tạp chúng ta biết và yêu .
+nếu chu ́ ng ta co ́ thê ̉ tra ̉ lơ ̀ i cho như ̃ ng câu ho ̉ i đo ́ , thì tôi nghi ̃ ră ̀ ng chúng ta đang cùng nhau tạo ra một học thuyết mới về ý thức .
+còn nếu không , thì có lẽ chúng ta đang gặp một rắc rối lớn trong khoa học và tâm lý học .
+chúng ta không thể gia ̉ i quyê ́ t no ́ trong mô ̣ t sơ ́ m mô ̣ t chiê ̀ u
+nhưng chúng ta chắc chắn có thể tìm ra .
+theo tôi , hiểu được ý thức là một chìa khóa thực sự , để giúp ta hiểu cả về vũ trụ này và bản thân chúng ta .
+điều này có thể là một ý tưởng điên rồ .
+xin cảm ơn !
+đây là cháu gái tôi , Stella .
+con bé vừa được một tuổi và bắt đầu tập đi .
+nó đi dễ thương theo cách mà các bé một tuổi vẫn làm , kiểu đi loạng choạng như thể cơ thể di chuyển quá nhanh so với chân .
+điều đó thật đáng yêu .
+một trong những việc yêu thích của con bé lúc này là nhìn chằm chằm vào mình trong gương .
+nó rất thích ảnh phản chiếu của mình .
+nó cười khúc khích , kêu ré lên và tự hôn mình trong gương .
+khi nào ta đột nhiên ngừng yêu vẻ bề ngoài của mình ?
+bởi vì đúng thật là ta không còn yêu nó nữa .
+10,000 người mỗi tháng tìm trên google , " Tôi trông xấu phải không ? "
+đây là Faye , 13 tuổi và sống ở Denver .
+như bất cứ thiếu niên nào , cô bé muốn được yêu mến và hòa đồng .
+và em hơi khiếp sợ , và bối rối vì dù mẹ luôn nói rằng em thật xinh đẹp , mỗi ngày ở trường , đều có ai đó bảo em là xấu xí .
+vì có sự khác biệt giữa điều mẹ nói và điều mà bạn ở trường , hoặc cùng tuổi nói với mình cô bé không biết nên tin ai .
+vài trong số đó có lời lẽ thật độc ác và thiếu suy nghĩ .
+đây là con số trung bình mà một thiếu nữ khỏe mạnh nhận được phản hồi ở một trong những thời điểm dễ bị tổn thương về tinh thần nhất .
+thiếu niên ngày nay hiếm khi cô đơn .
+chúng bị áp lực phải lên mạng và " available " mọi lúc , trò chuyện , nhắn tin , thích , bình luận , chia sẻ , cập nhật - không bao giờ kết thúc .
+chưa bao giờ ta được kết nối quá liên tục , quá nhanh , quá trẻ như vậy .
+1 bà mẹ nói với tôi , nó giống như có 1 tiệc trên giường bọn trẻ mỗi đêm .
+đơn giản là không có sự riêng tư .
+và áp lực xã hội đi cùng với nó thật tàn nhẫn .
+môi trường " luôn online " đang luyện cho bọn trẻ cách tự đánh giá bản thân dựa trên số lượt " thích " và loại " bình luận " mà chúng nhận được .
+không có sự tách biệt giữa cuộc sống trên mạng và đời thực .
+thật khó nói lên khác biệt giữa điều thật và không thật .
+và chúng ta đang tìm cảm hứng ở đâu ?
+bạn có thể thấy hình ảnh các cô gái này phủ khắp các kênh tin tức .
+các người mẫu mặc size 0 thống lĩnh sàn diễn thời trang .
+Photoshop đang là thông lệ .
+và các xu hướng # thinspiration , # thighgap # bikinibridge và # proana .
+cho những ai chưa biết , # proana nghĩa là ủng hộ chứng biếng ăn .
+các xu hướng này cùng với sự rập khuôn và cụ thể hóa phụ nữ trong văn hóa đại chúng ngày nay .
+không khó để thấy các cô gái lấy chuẩn gì để chống lại mình .
+các chàng trai cũng không miễn nhiễm với điều này. Mong có được cằm chữ V , bụng 6 múi của
+các ngôi sao thể thao và nghệ sĩ âm nhạc ăn chơi .
+nhưng vấn đề với tất cả là gì ?
+chắc rằng chúng ta muốn con cái mình khôn lớn khỏe mạnh , cân bằng .
+nhưng trong nền văn hóa bị ám ảnh bởi vẻ ngoài , chúng ta đang tập cho con mình dành nhiều thời gian và nỗ lực tinh thần cho vẻ ngoài bằng chi phí của tất cả khía cạnh khác thuộc về bản sắc của chúng .
+thế nên , những thứ như mối quan hệ , phát triển thể chất , học hành , và vân vân bắt đầu bị ảnh hưởng .
+6/10 cô gái chọn cách không làm gì bởi vì họ nghĩ mình không đủ xinh đẹp .
+đó không phải là các hoạt động tầm thường .
+đó là hoạt động cơ bản cho sự phát triển của con người , và là người đóng góp cho xã hội và cho lực lượng lao động .
+31 % , gần 1/3 các em thiếu niên rút lui khỏi buổi tranh luận của lớp vì không muốn bị chú ý về vẻ ngoài .
+1/5 không thể hiện gì vào ngày các em không tự tin vào bề ngoài .
+và khi có thi cử , nếu bạn không tự tin về bề ngoài đặc biệt là nếu bạn nghĩ bạn không đủ gầy , bạn sẽ có điểm số thấp hơn điểm trung bình của những bạn cùng lứa mà không quan tâm đến vấn đề mập - ốm .
+điều này là sự thật nhất quán từ Phần Lan , Hoa Kỳ ,
+và đến Trung Quốc , mặc cho cân nặng thực sự của bạn là bao nhiêu .
+vì vậy để thật rõ , chúng ta đang nói về cách bạn nghĩ về bề ngoài , không phải vẻ bề ngoài thực sự của bạn .
+sự thiếu tự tin về cơ thể làm giảm thành tích học tập .
+điều này cũng phá họai sức khỏe .
+trẻ vị thành niên thiếu tự tin về cơ thể ít hoạt động thể chất , ăn ít trái cây và rau củ , tham gia các hoạt động kiểm soát cân nặng không lành mạnh dẫn đến rối loạn ăn uống .
+chúng ta cũng không là ngoài lệ .
+những phụ nữ nghĩ mình thừa cân , bất kể họ có thừa cân hay không - có tỉ lệ vắng mặt ở công sở cao hơn .
+17 % tỉ lệ phụ nữ không đến buổi phỏng vấn xin việc vào ngày mà họ không thấy tự tin về vẻ ngoài ,
+hãy suy nghĩ về ảnh hưởng của nó đến nền kinh tế của chúng ta .
+nếu chúng ta vượt qua điều này , cơ hội đó sẽ như thế nào .
+giải phóng tiềm năng là mối quan tâm của mỗi người .
+chúng ta làm điều đó như thế nào ?
+vâng , nói riêng về nó , chỉ đưa bạn đi xa khỏi vấn đề mà thôi .
+việc giải phóng tiềm năng là chưa đủ .
+nếu muốn khác biệt , bạn phải làm hành động nữa .
+và ta biết được có 3 cách chính : đầu tiên , phải rèn luyện sự tự tin vào cơ thể .
+phải giúp các em thiếu niên phát triển chiến lược vượt qua các áp lực liên quan đến vẻ ngoài và xây dựng sự yêu quý bản thân .
+hiện giờ , tin tốt là có nhiều chương trình ở ngoài kia đang làm điều này .
+tin xấu là đa số chúng không hiệu quả .
+tôi bị sốc khi biết rằng nhiều chương trình ý nghĩa tốt này đang vô tình làm cho tình hình tệ đi .
+do đó , cần phải chắc chắn rằng các chương trình con em chúng ta được học không chỉ có tác động tích cực mà còn phải có tác động dài lâu .
+nghiên cứu cho thấy chương trình tốt nhất nêu lên được 6 vấn đề chính : đầu tiên là ảnh hưởng của gia đình , bạn bè và các mối quan hệ .
+thứ hai là thông tin đại chúng và văn hóa thần tượng cách xử lý việc trêu chọc và bắt nạt , cách chúng ta thi đua , so sánh với người khác dựa vào vẻ ngoài nói về vẻ ngoài - vài người gọi đây là " cơ thể lên tiếng " hoặc " mỡ lên tiếng " và cuối cùng , nền tảng của việc tôn trọng và chăm sóc bản thân .
+thách thức định kiến mà qua đó phụ nữ bị dòm ngó và bình luận xung quanh ta .
+thật không đúng nếu đánh giá những đóng góp của các chính trị gia qua kiểu tóc hoặc cỡ ngực của họ hoặc suy luận rằng quyết tâm hay sự thành công của vận động viên Olympic bị giảm do cô có vẻ ngoài không ưa nhìn
+nên bắt đầu đánh giá con người bằng những việc họ làm , thay vì vẻ ngoài của họ .
+ta có thể bắt đầu bằng việc chịu trách nhiệm về các loại hình ảnh và các bình luận mà chúng ta đưa lên mạng xã hội .
+chúng ta khen ngợi người khác dựa trên nỗ lực và hành động của họ chứ không phải bởi vẻ ngoài
+tôi xin hỏi , lần cuối cùng bạn hôn mình trong gương là khi nào ?
+rốt cục , chúng ta cần chung tay với nhau cũng như với cộng đồng , chính phủ , và các doanh nghiệp để thực sự thay đổi văn hóa này của chúng ta để con em chúng ta lớn lên coi trọng chính bản thân mình , coi trọng cá nhân , tính cá nhân sự đa dạng .
+cần đưa những người thực sự tạo nên sự khác biệt về bệ phóng , tạo nên sự khác biệt trong thế giới thực .
+giới thiệu họ rộng rãi , chỉ khi đó ta mới có thể tạo nên 1 thế giới khác .
+một thế giới mà con em chúng ta , tự do khôn lớn trở thành phiên bản tốt nhất của chính mình , nơi mà cách chúng nghĩ về bề ngoài không kìm hãm việc chúng trở thành ai hoặc đạt được điều chúng muốn trong cuộc sống .
+nghĩ về việc điều này có thể có ý nghĩa cho ai đó trong đời bạn .
+có thể là người phụ nữ ngồi cách bạn vài ghế ngày hôm nay .
+điều có ý nghĩa gì với cô ấy nếu cô ấy được giải phóng khỏi tiếng nói nội tâm đang phê phán , quở trách bản thân để có chân dài hơn , đùi thon hơn dạ dày nhỏ hơn , bàn chân ngắn hơn ?
+điều này có ý nghĩa gì cho cô ấy nếu chúng ta vượt qua vấn đề này và giải phóng tiềm năng của cô bằng cách đó ?
+ngay bây giờ , nỗi ám ảnh về vẻ ngoài từ nền văn hóa đang kìm hãm tất cả chúng ta .
+nhưng hãy cho con em chúng ta thấy sự thật .
+cho chúng thấy bề ngoài chỉ là một phần của bản sắc và sự thật là chúng ta yêu bọn trẻ dù chúng là ai và làm gì và cách chúng ta cảm nhận về chúng .
+hãy đưa giáo dục yêu quý bản thân vào chương trình học chính khóa .
+hãy để mỗi và tất cả chúng ta thay đổi cách chúng ta nói và so sánh mình với người khác .
+và hãy cùng chung sức , từ cấp cơ sở đến cấp trung ương , để những đứa trẻ 1 tuổi hạnh phúc của hôm nay trở thành những người tạo ra thay đổi cho tương lai .
+hãy cùng nhau làm điều đó .
+hôm nay tôi sẽ nói với các bạn về 30 năm gần nhất của lịch sử ngành kiến trúc .
+rất nhiều điều để có thể gói gọn trong 18 phút .
+đây là một chủ đề phức tạp , vì vậy chúng ta sẽ chỉ đi sâu vào một nơi phức tạp : New Jersey .
+bởi vì 30 năm trước , tôi đến từ Jersey , lúc tôi 6 tuổi , và tôi đã sống ở đó trong nhà bố mẹ tôi ở một thị trấn gọi là Livingston , và đó là phòng ngủ của tuổi thơ tôi .
+ở góc phòng phòng ngủ của tôi là nhà tắm mà tôi đã chia sẻ với chị gái tôi .
+và ở giữa phòng ngủ của tôi và phòng tắm là một ban công từ đó có thể nhìn thấy toàn cảnh phòng khách gia đình .
+và đó là nơi mà mọi người sẽ tụ tập và xem TV , nên mỗi lần tôi đi từ phòng ngủ đến phòng tắm , mọi người sẽ thấy tôi , và mỗi lần tôi đi tắm và quay trở lại trong chiếc khăn tắm , mọi người sẽ thấy tôi .
+và tôi trông như thế này .
+tôi đã thấy ngượng ngùng , không an toàn , và tôi ghét điều đó .
+tôi ghét phải đi qua đó , tôi ghét cái ban công đó , tôi ghét căn phòng đó , và tôi ghét ngôi nhà đó .
+và đó là kiến trúc .
+cảm giác đó , những cảm xúc mà tôi cảm thấy , đó là sức mạnh của kiến trúc , bởi vì kiến trúc không phải là về toán học và nó không phải là về quy hoạch , nó là về những kết nối cảm xúc , bản năng mà chúng ta cảm nhận từ những nơi mà chúng ta sống .
+và không có gì ngạc nhiên khi chúng ta cảm nhận như vậy , vì theo EPA , người Mỹ dành 90 phần trăm thời gian của họ trong nhà .
+đó là 90 phần trăm thời gian của chúng ta được bao quanh bởi kiến trúc .
+thời gian đó rất nhiều .
+điều đó có nghĩa là kiến trúc đang định hình chúng ta theo những cách mà chúng ta thậm chí không nhận ra .
+điều đó làm cho chúng ta có chút cả tin và rất , rất dễ đoán trước .
+điều đó có nghĩa là khi tôi cho các bạn thấy một toà nhà như thế này , tôi biết những gì bạn nghĩ : bạn nghĩ về " quyền lực " và " ổn định " và " dân chủ " .
+và tôi biết các bạn nghĩ vậy vì nó dựa trên một công trình được tạo ra 2500 năm trước bởi những người Hy Lạp .
+đây là một mẹo .
+đây là một cách kích hoạt mà kiến trúc sư sử dụng để làm bạn tạo ra một kết nối cảm xúc với những hình khối mà từ đó chúng ta xây dựng nên những toà nhà của chúng ta .
+nó là một kết nối cảm xúc dễ đoán , và chúng tôi đã sử dụng mẹo này trong một thời gian dài .
+chúng tôi đã sử dụng nó [ 200 ] năm trước để xây dựng ngân hàng .
+chúng tôi đã sử dụng nó trong thế kỷ 19 để xây dựng bảo tàng nghệ thuật .
+và ở thế kỷ 20 ở Mỹ , chúng tôi dùng nó để xây dựng những căn nhà .
+và hãy nhìn vào những người lính nhỏ chắc chắn , ổn định này đối mặt với đại dương và chống chọi với thời tiết khắc nghiệt .
+điều này thực sự , thực sự hữu ích , vì việc xây dựng những công trình là việc đáng sợ .
+nó đắt đỏ , phải mất một thời gian dài , và nó rất phức tạp .
+và những người xây dựng mọi thứ - - các nhà phát triển và các chính phủ - - họ vốn dĩ lo sợ sự đổi mới , và họ chỉ muốn sử dụng những hình thức họ biết các bạn sẽ phản hồi .
+đó là lý do rốt cục chúng ta có những toà nhà như thế này .
+đây là một toà nhà đẹp .
+nhưng nó không có gì liên quan tới những gì mà một thư viện có ngày nay .
+cùng năm đó , năm 2004 , ở phía kia của đất nước , một thư viện khác đã được hoàn thành , và nó trông như thế này .
+nó ở Seattle .
+thư viện này nói về cách chúng ta dùng các phương tiện trong một thời đại số .
+nó là một tiện nghi công cộng kiểu mới cho thành phố , một nơi để tụ tập và đọc và chia sẻ .
+vậy có lý nào mà trong cùng một năm , cùng một quốc gia , hai toà nhà , đều được gọi là thư viện , nhìn hoàn toàn khác nhau như vậy ?
+và câu trả lời là kiến trúc hoạt động dựa trên nguyên tắc của một quả lắc .
+một bên là sự đổi mới , và kiến trúc sư đang liên tục thúc đẩy , đẩy mạnh những công nghệ mới , những hình thể mới , những giải pháp mới theo cách chúng ta đang sống ngày nay .
+chúng tôi mặc toàn đồ đen , chúng tôi bị áp lực , các bạn nghĩ chúng tôi thật đáng ngưỡng mộ , nhưng thực ra chúng tôi đang chết yểu từ bên trong vì chúng tôi không hề có lựa chọn khác .
+chúng tôi buộc phải đi theo hướng đối diện và nối kết lại với những biểu tượng mà chúng tôi biết các bạn yêu thích .
+thế là chúng tôi làm vậy , và các bạn hạnh phúc , chúng tôi cảm thấy đã bán rẻ bản thân , nên chúng tôi lại bắt đầu thử nghiệm và đẩy con lắc trở lại , trở lại và tiến tới , trở lại và tiến tới như thế chúng ta đã trải qua 300 năm , và tất nhiên cho cả 30 năm gần nhất .
+Ok , 30 năm trước chúng ta đã bước qua thập niên 70
+kiến trúc sư đã khá bận rộn trong việc thử nghiệm với một thứ được gọi là Chủ nghĩa Thô mộc .
+đó là về bê tông .
+những cửa sổ nhỏ , quy mô phi nhân bản .
+điều này thực sự khó khăn .
+rồi khi chúng ta đến gần hơn với những năm 80 , chúng ta bắt đầu kết nối lại những biểu tượng ấy .
+chúng ta đẩy con lắc trở lại theo hướng kia .
+chúng tôi chọn những hình mẫu mà chúng tôi biết bạn thích và chúng tôi cập nhật chúng .
+chúng tôi thêm đèn nê - ông và chúng tôi thêm phấn màu và chúng tôi sử dụng vật liệu mới .
+và các bạn thích nó .
+và chúng tôi không thể cho các bạn đủ những điều đó
+chúng tôi lấy hình mẫu tủ gỗ kiểu cổ và chúng tôi biến chúng trở thành những toà nhà chọc trời , và những toà nhà chọc trời có thể có dạng lâu đài trung cổ toàn bằng kính .
+những khuôn dạng trở nên to lớn , những khuôn dạng được nhấn mạnh và đầy màu sắc .
+những chú lùn trở thành cột chống .
+điều này thật điên rồ .
+nhưng đó là những năm 80 , nó đã rất tuyệt .
+đây là thứ thuộc về kiểu hậu hiện đại .
+đây là thứ thuộc về biểu tượng .
+chúng rất dễ dàng , chúng rẻ , bởi vì thay vì làm nên nơi ở , chúng tôi đang tạo ra những kí ức về nơi ở .
+bởi vì tôi biết , và tôi biết tất cả các bạn biết , đây không phải là vùng Tuscany .
+đây là Ohio .
+trong những năm cuối thập niên 80 và đầu thập niên 90 , và chúng tôi bắt đầu thử nghiệm với một thứ gọi là Chủ nghĩa giải toả kết cấu .
+chúng tôi vứt bỏ những biểu tượng lịch sử , chúng tôi dựa vào những kĩ thuật thiết kế mới với sự trợ giúp của máy tính , và chúng tôi cho ra đời những sự kết hợp mới , những khuôn hình trộn lẫn vào những khuôn hình .
+đây là những thứ hàn lâm và hóc búa , nó cực kỳ không phổ biến , chúng tôi hoàn toàn làm các bạn thấy lạ lẫm .
+về cơ bản , con lắc lại quay trở lại theo hướng kia .
+và sau đó , điều kỳ diệu đã xảy ra .
+vào năm 1997 , toà nhà này khai trương .
+đây là Guggenheim Bilbao , thiết kế bởi Frank Gehry .
+và toà nhà này đã cơ bản thay đổi mối quan hệ của thế giới với kiến trúc .
+Paul Goldberger nói rằng công trình ở Bilbao này là một trong những khoảnh khắc hiếm hoi khi các nhà phê bình , các học giả , và cộng đồng hoàn toàn đồng tình về một toà nhà .
+tờ Thời báo New York gọi toà nhà này là một điều kì diệu .
+khách du lịch ở Bilbao tăng thêm 2,500 phần trăm sau khi toà nhà hoàn thành .
+ông ấy là siêu sao kiến trúc sư đầu tiên của chúng tôi .
+bây giờ , làm thế nào mà những khuôn mẫu này - - chúng phá cách và cực đoan - - làm thế nào mà chúng trở nên phổ biến đến thế trên toàn thế giới ?
+và điều này đã xảy ra , bởi vì truyền thông đã được khích động thành công về chúng đến mức chúng nhanh chóng dạy chúng tôi rằng những hình mẫu này mang tính văn hoá và du lịch .
+chúng tôi đã tạo ra một phản ứng cảm xúc với những hình mẫu này .
+điều này cũng xảy ra với những thị trưởng trên thế giới .
+vì mỗi thị trưởng biết rằng nếu họ có những hình mẫu này , họ sẽ có Văn hoá và Du lịch .
+hiện tượng vào thời điểm chuyển giao thiên niên kỷ mới này đã xảy đến với một vài siêu sao kiến trúc khác .
+bởi vì , hãz nghĩ về việc làm thế nào bạn sử dụng kiến trúc .
+một ngàn năm trước , các bạn sẽ phải đi bộ đến ngôi làng cạnh để thấy một ngôi nhà .
+giao thông vận tải tăng tốc : bạn có thể đi thuyền , bạn có thể đi máy bay , bạn có thể là một khách du lịch .
+công nghệ cũng tăng tốc : bạn có thể thấy nó qua một tờ báo , trên TV , cho đến cuối cùng , chúng ta đều là những nhiếp ảnh gia về kiến trúc , và toà nhà đã trở nên tách biệt với nơi nó được xây dựng .
+hiện giờ , kiến trúc ở khắp nơi , và điều đó có nghĩa là tốc độ của sự giao tiếp cuối cùng đã bắt kịp được với tốc độ của kiến trúc .
+bởi vì kiến trúc thực sự di chuyển rất nhanh .
+không cần nhiều thời gian để nghĩ về một công trình .
+sẽ mất một thời gian dài để xây dựng một toà nhà , ba hay bốn năm , và trong khoảng thời gian đóg , một kiến trúc sư sẽ thiết kế hai hoặc tám hoặc một trăm toà nhà khác trước khi họ biết rằng liệu toà nhà họ thiết kế bốn năm trước là một thành công hay không .
+đó là bởi vì sẽ không bao giờ có một vòng quay phản hồi tốt trong kiến trúc .
+đó là lý do rốt cục chúng ta có những toà nhà như thế này .
+nó sẽ không bao giờ xảy ra một lần nữa , tôi nghĩ , bởi vì chúng ta đang sống trên ranh giới của cuộc cách mạng lớn nhất trong kiến trúc kể từ những phát minh ra bê tông , thép , hay thang máy , và nó là cuộc cách mạng truyền thông .
+vì vậy lý thuyết của tôi là khi bạn áp dụng yếu tố truyền thông lên con lắc này , nó bắt đầu đung đưa nhanh hơn và nhanh hơn nữa , cho đến khi nó ở cả hai thái cực đó gần như cùng một lúc , và điều đó sẽ xoá nhoà một cách hiệu quả sự khác biệt giữa đổi mới và biểu tượng , giữa chúng tôi , những kiến trúc sư , và các bạn , cộng đồng .
+bây giờ chúng ta có thể tạo ra gần như ngay lập tức , những biểu tượng chất chứa cảm xúc từ những thứ nào đó hoàn toàn mới .
+để tôi cho bạn xem điều này được thực hiện như thế nào trong một dự án mà công ty của tôi hoàn thành gần đây .
+chúng tôi được thuê để thay thế toà nhà này , nó bị cháy rụi .
+đây là trung tâm của một thị trấn gọi là Pines ở Fire Island , bang New York .
+nó là một nơi nghỉ ngơi của cộng đồng .
+chúng ta đã đề xuất một toà nhà rất táo bạo , rất khác biệt với tất cả những khuôn mẫu mà cộng đồng vốn quen thuộc , và chúng tôi lo lắng và khách hàng của chúng tôi cũng cảm thấy lo lắng và cộng đồng cũng lo lắng , nên chúng tôi đã tạo ra một loạt những bản dựng hình ảnh như thật và chúng tôi đăng lên Facebook và chúng tôi đăng lên Instagram , và chúng tôi để mọi người bắt đầu làm điều mà họ làm : chia sẻ nó , bình luận , thích nó , ghét nó .
+nhưng điều đó có nghĩa là hai năm trước khi toà nhà được hoàn thành , nó đã là một phần của cộng đồng , vì thế khi những bản dựng trông giống hệt các sản phẩm hoàn thiện , sẽ không có ngạc nhiên nào cả .
+toà nhà đã là một phần của cộng đồng này , và sau đó vào mùa hè đầu tiên , khi mọi người bắt đầu đến và chia sẻ về toà nhà trên các phương tiện truyền thông xã hội , toà nhà đã không dừng lại chỉ là một công trình lớn , nó đã trở thành phương tiện truyền thông , bởi vì những thứ này , chúng không chỉ là bức ảnh của một toà nhà , chúng là hình ảnh của các bạn trong một toà nhà .
+điều đó có nghĩa là chúng tôi không cần những người Hy Lạp nữa để nói cho chúng tôi phải suy nghĩ thế nào về kiến trúc .
+chúng ta đã có thể nói với nhau những gì chúng ta nghĩ về kiến trúc , bởi vì phương tiện truyền thông kỹ thuật số đã không chỉ thay đổi mối quan hệ giữa tất cả chúng ta , mà còn thay đổi mối quan hệ giữa chúng ta và những công trình .
+hãy quay lại suy nghĩ một chút về những người thủ thư ở Livingston .
+nếu toà nhà đó sẽ được xây ngày nay , điều đầu tiên họ sẽ làm là lên mạng và tìm kiếm " thư viện mới. "
+họ sẽ bị choáng ngợp bởi hàng ngàn ví dụ của sự thử nghiệm , của sự sáng tạo , của việc mở ra những gì không biết trước mà một thư viện có thể trở thành .
+đó là nguồn cung ý tưởng cho họ .
+đó là những ý tưởng mà họ có thể trình bày với ngài thị trưởng của Livingston , tới những người dân của Livingston , và nói rằng , sẽ không chỉ có một câu trả lời cho những gì một thư viện ngày nay có thể trở thành .
+hãy là một phần của việc này .
+sự phong phú của những thử nghiệm này cho họ sự tự do để thực hiện thử nghiệm của chính họ .
+mọi thứ nay đều khác biệt .
+kiến trúc sư không còn là những sinh vật bí ẩn với những ngôn từ to tát và những bản vẽ phức tạp , và các bạn không còn là công chúng thiếu may mắn , là người sử dụng vốn không chấp nhận bất cứ thứ gì mà họ chưa từng thấy nữa .
+kiến trúc sư có thể nghe thấy các bạn , và các bạn sẽ không bị lo lắng bởi kiến trúc nữa .
+đây là sự kết thúc của lịch sử kiến trúc , và nó có nghĩa là các toà nhà trong tương lai sẽ trông rất khác biệt với những toà nhà của ngày hôm nay .
+nó có nghĩa là một không gian công cộng trong thành phố cổ của Seville có thể rất khác biệt và được điều chỉnh theo cách của một thành phố hiện đại .
+nó có nghĩa là một sân vận động ở Brooklyn có thể là một sân vận động ở Brooklyn , không phải một công trình từa tựa lịch sử với tường gạch đỏ như chúng ta nghĩ một sân vận động nên là .
+nó có nghĩa là những Rô bốt sẽ xây dựng những toà nhà , bởi vì giờ đây chúng ta đã sẵn sàng cho những khuôn mẫu chúng sẽ tạo ra .
+và nó có nghĩa là những ngôi nhà sẽ được mô phỏng ý tưởng nảy ra từ tự nhiên thay vì chiều ngược lại .
+nó có nghĩa là một ga - ra đậu xe ở bờ biển Miami , Florida , cũng có thể là một nơi dành cho hoạt động thể thao và cho cả yoga và bạn thậm chí có thể tổ chức đám cưới ở đó vào buổi tối muộn .
+nó có nghĩa không có ngôi nhà nào quá nhỏ cho sự cách tân , như cái sảnh tuần lộc nhỏ này , rất có vẻ cơ bắp và gân guốc như những con vật mà nó được thiết kế để quan sát .
+và nó có nghĩa là một toà nhà không cần phải đẹp , phải được yêu thích , như ngôi nhà nhỏ bé xấu xí này ở Tây Ban Nha , nơi mà các kiến trúc sư đã đào một cái lỗ , lớp nó với rơm , và sau đó đổ vữa xung quanh nó , và khi vữa khô lại , họ mời một ai đó đến và làm sạch tất cả rơm rạ , để khi tất cả những thứ đó kết thúc , để lại là căn phòng nhỏ bé gồ ghề này , chứa đầy những dấu tích và vết cào xước của quá trình tạo ra nơi này , và nó trở thành một nơi tuyệt vời để ngắm nhìn hoàng hôn Tây Ban Nha .
+bởi vì không quan trọng là một con bò xây những toà nhà của chúng ta hay một con Rô bốt xây những toà nhà của ta .
+không quan trọng cách chúng ta xây dựng nó , mà điều quan trọng là chúng ta xây dựng cái gì .
+kiến trúc sư đã biết làm thế nào để tạo ra những công trình xanh hơn và thông minh hơn và thân thiện hơn .
+chúng tôi chỉ đang chờ đợi tất cả các bạn thích chúng .
+và cuối cùng , chúng ta không ở hai bên đối lập nữa .
+tìm một kiến trúc sư , thuê một kiến trúc sư , làm việc với chúng tôi để thiết kế những toà nhà tốt hơn , những thành phố tốt hơn , và một thế giới tốt đẹp hơn , bởi vì những cơ hội đang ở đỉnh điểm .
+những công trình không chỉ phản ánh xã hội của chúng ta , chúng định hình xã hội của chúng ta từ những không gian nhỏ nhất : những thư viện của địa phương , những ngôi nhà nơi chúng ta nuôi dạy con cái chúng ta , và lối đi mà chúng đi từ phòng ngủ tới phòng tắm .
+cảm ơn các bạn .
