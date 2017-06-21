@@ -27,3 +27,6 @@ For example:
 - For each sample: generate 1000 sets
 - Totally: generate 5 x 1000 sets with size=400 sentences
 
+# Moses decoder: with multiple test sets
+
+        ./decode-multi.sh
