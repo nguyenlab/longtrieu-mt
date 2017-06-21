@@ -30,3 +30,7 @@ For example:
 # Moses decoder: with multiple test sets
 
         ./decode-multi.sh
+
+# Compare BLEU scores between two systems: baseline and proposed
+
+        ./run-system-scores.sh
