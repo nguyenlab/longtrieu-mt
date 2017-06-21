@@ -8,9 +8,9 @@ Author: Long Trieu
 May, 2017
 Supervisor: Associate Professor Le Minh Nguyen
 
-# Scripts for running metrics: BLEU, TER, METEOR
+    1. Scripts for running metrics: BLEU, TER, METEOR
 
-# Scripts for running significance test: [Koehn 2004]
+    2. Scripts for running significance test: [Koehn 2004]
 
 
 # References
