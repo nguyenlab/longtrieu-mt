@@ -1,0 +1,22 @@
+#!/bin/sh
+
+JAVA_DIR=sentence_alignment
+
+SRCLANG=ja
+TRGLANG=vi
+
+
+SETUP=length-based
+
+SEARCHING_LIMIT=20
+THRESHOLD1=0.99
+
+INDIR=data/input
+LENGTH_BASED_DIR=length-based
+IBM1_DIR=ibm1
+SRC_MERGE_LENGTH=length-based.$SRCLANG
+TRG_MERGE_LENGTH=length-based.$TRGLANG
+
+java -cp $JAVA_DIR/target/classes:$JAVA_DIR/target/lib/* Sentence_Aligner $SETUP \
+	$INDIR $SRCLANG $TRGLANG $SEARCHING_LIMIT $THRESHOLD1 $LENGTH_BASED_DIR \
+	$IBM1_DIR $SRC_MERGE_LENGTH $TRG_MERGE_LENGTH
