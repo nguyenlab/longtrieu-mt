@@ -8,15 +8,17 @@ Author: Long Trieu
 May, 2017
 Supervisor: Associate Professor Le Minh Nguyen
 
-    1. Scripts for baseline phrase-based machine translation
+    1. Scripts for phrase-based machine translation
     
-    2. Scripts for similarity for sentence alignment
+    2. Scripts for neural-based machine translation
     
-    3. Scripts for phrase pivot translation
+    3. Scripts for similarity for sentence alignment
+    
+    4. Scripts for phrase pivot translation
 
-    4. Scripts for running metrics: BLEU, TER, METEOR
+    5. Scripts for running metrics: BLEU, TER, METEOR
 
-    5. Scripts for running significance test: [Koehn 2004]
+    6. Scripts for running significance test: [Koehn 2004]
 
 
 # References
