@@ -8,6 +8,9 @@ Author: Long Trieu
 May, 2017
 Supervisor: Associate Professor Le Minh Nguyen
 
+
+# Scripts
+
     1. Scripts for phrase-based machine translation
     
     2. Scripts for neural-based machine translation
@@ -20,6 +23,33 @@ Supervisor: Associate Professor Le Minh Nguyen
 
     6. Scripts for running significance test: [Koehn 2004]
 
+
+# Languages
+
+    1. English-Vietnamese
+    2. Malay-Vietnamese
+    3. Japanese-Vietnamese
+    4. Indonesian-Vietnamese
+    5. Filipino-Vietnamese
+    6. Turkish-English
+    7. German-French
+    8. Czech-Russian
+    9. Japanese-English
+
+# Corpora
+
+    1. Europarl
+    2. Asian Language Treebank
+    3. VLSP (Vietnamese)
+    4. Bibble
+    5. SETIMES2
+    6. WMT datasets
+    7. IWSLT datasets
+    8. OPUS
+    9. TED talks
+    10. JRC-ACQUIS
+    11. Kyoto corpus (Japanese-English)
+    12. Wikipedia bilingual titles
 
 # References
 
