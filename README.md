@@ -35,6 +35,14 @@ Supervisor: Associate Professor Le Minh Nguyen
     7. German-French
     8. Czech-Russian
     9. Japanese-English
+    10. Indonesian-Malay
+    12. Filipino-Malay
+    13. Filipino-Indonesian
+    14. Malay-Filipino
+    15. Indonesian-English
+    16. Malay-English
+    17. Filipino-English
+    
 
 # Corpora
 
