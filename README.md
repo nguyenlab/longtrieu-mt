@@ -8,9 +8,15 @@ Author: Long Trieu
 May, 2017
 Supervisor: Associate Professor Le Minh Nguyen
 
-    1. Scripts for running metrics: BLEU, TER, METEOR
+    1. Scripts for baseline phrase-based machine translation
+    
+    2. Scripts for similarity for sentence alignment
+    
+    3. Scripts for phrase pivot translation
 
-    2. Scripts for running significance test: [Koehn 2004]
+    4. Scripts for running metrics: BLEU, TER, METEOR
+
+    5. Scripts for running significance test: [Koehn 2004]
 
 
 # References
