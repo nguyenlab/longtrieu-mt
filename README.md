@@ -61,14 +61,14 @@ The repository for my dissertation:
 
 # References
 
-[1] BLEU
+    1. BLEU
+Papineni, Kishore, et al. "BLEU: a method for automatic evaluation of machine translation." Proceedings of the 40th annual meeting on association for computational linguistics. Association for Computational Linguistics, 2002.
 
-    Papineni, Kishore, et al. "BLEU: a method for automatic evaluation of machine translation." Proceedings of the 40th annual meeting on association for computational linguistics. Association for Computational Linguistics, 2002.
     (https://github.com/moses-smt/mosesdecoder/blob/master/scripts/generic/multi-bleu.perl)
 
 [2] TER
     
-    Matthew Snover, Bonnie Dorr, Richard Schwartz, Linnea Micciulla, and John Makhoul, "A Study of Translation Edit Rate with Targeted Human Annotation," Proceedings of Association for Machine Translation in the Americas, 2006.
+Matthew Snover, Bonnie Dorr, Richard Schwartz, Linnea Micciulla, and John Makhoul, "A Study of Translation Edit Rate with Targeted Human Annotation," Proceedings of Association for Machine Translation in the Americas, 2006.
     (http://www.cs.umd.edu/~snover/tercom/)
 
 [3] METEOR
@@ -87,10 +87,13 @@ The repository for my dissertation:
 [6] Sentence alignment
 
     Robert C Moore. Fast and accurate sentence alignment of bilingual corpora. Springer, 2002.
+    (https://www.microsoft.com/en-us/download/details.aspx?id=52608)
 
 [7] Phrase-based mt
 
     Philipp Koehn, Hieu Hoang, Alexandra Birch, Chris Callison-Burch, Marcello Federico, Nicola Bertoldi, Brooke Cowan, Wade Shen, Christine Moran, Richard Zens, et al. Moses: Open source toolkit for statistical machine translation. In Proceedings of ACL, pages 177–180. Association for Computational Linguistics, 2007.
+    
+    (http://www.statmt.org/moses/index.php?n=Main.HomePage)
 
 [8] Neural-based mt
 
