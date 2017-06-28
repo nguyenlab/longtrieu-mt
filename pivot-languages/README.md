@@ -38,4 +38,11 @@ pivoting via 2 pivot languages: source - pivot1 - pivot2 - target
     ./scripts/rectangulation.sh ms vi id en
     
     
+# interpolation: tuning
+
+    ./scripts/interpolation.sh ms vi en fil id
+    
+# interpolation: weights
+
+    ./scripts/multi-pivot/multi-pivot-weights.sh $src_lang $trg_lang $pvt1_lang $pvt2_lang $pvt3_lang
     
