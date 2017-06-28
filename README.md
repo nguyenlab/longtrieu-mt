@@ -63,46 +63,35 @@ The repository for my dissertation:
 
     1. BLEU
 Papineni, Kishore, et al. "BLEU: a method for automatic evaluation of machine translation." Proceedings of the 40th annual meeting on association for computational linguistics. Association for Computational Linguistics, 2002.
+(https://github.com/moses-smt/mosesdecoder/blob/master/scripts/generic/multi-bleu.perl)
 
-    (https://github.com/moses-smt/mosesdecoder/blob/master/scripts/generic/multi-bleu.perl)
-
-[2] TER
-    
+    2. TER
 Matthew Snover, Bonnie Dorr, Richard Schwartz, Linnea Micciulla, and John Makhoul, "A Study of Translation Edit Rate with Targeted Human Annotation," Proceedings of Association for Machine Translation in the Americas, 2006.
-    (http://www.cs.umd.edu/~snover/tercom/)
+(http://www.cs.umd.edu/~snover/tercom/)
 
-[3] METEOR
+    3. METEOR
+Michael Denkowski and Alon Lavie, "Meteor Universal: Language Specific Translation Evaluation for Any Target Language", Proceedings of the EACL 2014 Workshop on Statistical Machine Translation, 2014
+(http://www.cs.cmu.edu/~alavie/METEOR/)
 
-    Michael Denkowski and Alon Lavie, "Meteor Universal: Language Specific Translation Evaluation for Any Target Language", Proceedings of the EACL 2014 Workshop on Statistical Machine Translation, 2014
-    (http://www.cs.cmu.edu/~alavie/METEOR/)
+    4. Significance test
+Koehn, Philipp. "Statistical Significance Tests for Machine Translation Evaluation." EMNLP. 2004.
 
-[4] Significance test
-    
-    Koehn, Philipp. "Statistical Significance Tests for Machine Translation Evaluation." EMNLP. 2004.
+    5. Pivot
+Hua Wu and Haifeng Wang. Pivot language approach for phrase-based statistical machine translation. In Proceedings of ACL, pages 856–863. Association for Computational Linguistics, June 2007
 
-[5] Pivot
+    6. Sentence alignment
+Robert C Moore. Fast and accurate sentence alignment of bilingual corpora. Springer, 2002.
+(https://www.microsoft.com/en-us/download/details.aspx?id=52608)
 
-    Hua Wu and Haifeng Wang. Pivot language approach for phrase-based statistical machine translation. In Proceedings of ACL, pages 856–863. Association for Computational Linguistics, June 2007
+    7. Phrase-based mt
+Philipp Koehn, Hieu Hoang, Alexandra Birch, Chris Callison-Burch, Marcello Federico, Nicola Bertoldi, Brooke Cowan, Wade Shen, Christine Moran, Richard Zens, et al. Moses: Open source toolkit for statistical machine translation. In Proceedings of ACL, pages 177–180. Association for Computational Linguistics, 2007.
+(http://www.statmt.org/moses/index.php?n=Main.HomePage)
 
-[6] Sentence alignment
+    8. Neural-based mt
+Rico Sennrich, Barry Haddow, and Alexandra Birch. Edinburgh neural machine translation systems for wmt 16. In Proceedings of the First Conference on Machine Translation (WMT), 2016.
+(https://github.com/rsennrich/nematus)
 
-    Robert C Moore. Fast and accurate sentence alignment of bilingual corpora. Springer, 2002.
-    (https://www.microsoft.com/en-us/download/details.aspx?id=52608)
-
-[7] Phrase-based mt
-
-    Philipp Koehn, Hieu Hoang, Alexandra Birch, Chris Callison-Burch, Marcello Federico, Nicola Bertoldi, Brooke Cowan, Wade Shen, Christine Moran, Richard Zens, et al. Moses: Open source toolkit for statistical machine translation. In Proceedings of ACL, pages 177–180. Association for Computational Linguistics, 2007.
-    
-    (http://www.statmt.org/moses/index.php?n=Main.HomePage)
-
-[8] Neural-based mt
-
-    Rico Sennrich, Barry Haddow, and Alexandra Birch. Edinburgh neural machine translation systems for wmt 16. In Proceedings of the First Conference on Machine Translation (WMT), 2016.
-
-[9] Interpolation
-
-    Rico Sennrich. Perplexity minimization for translation model domain adaptation in statistical machine translation. In Proceedings of EAMT, pages 539–549, 2012.
-
-
+    9. Interpolation
+Rico Sennrich. Perplexity minimization for translation model domain adaptation in statistical machine translation. In Proceedings of EAMT, pages 539–549, 2012.
 
 
