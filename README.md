@@ -1,4 +1,4 @@
-# longtrieu_mt
+# Introduction
 
 The repository for my dissertation:
 
