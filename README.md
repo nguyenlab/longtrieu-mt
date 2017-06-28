@@ -75,3 +75,22 @@ Michael Denkowski and Alon Lavie, "Meteor Universal: Language Specific Translati
 
 [4] Significance test
 Koehn, Philipp. "Statistical Significance Tests for Machine Translation Evaluation." EMNLP. 2004.
+
+[5] Pivot
+Hua Wu and Haifeng Wang. Pivot language approach for phrase-based statistical machine translation. In Proceedings of ACL, pages 856–863. Association for Computational Linguistics, June 2007
+
+[6] Sentence alignment
+Robert C Moore. Fast and accurate sentence alignment of bilingual corpora. Springer, 2002.
+
+[7] Phrase-based mt
+Philipp Koehn, Hieu Hoang, Alexandra Birch, Chris Callison-Burch, Marcello Federico, Nicola Bertoldi, Brooke Cowan, Wade Shen, Christine Moran, Richard Zens, et al. Moses: Open source toolkit for statistical machine translation. In Proceedings of ACL, pages 177–180. Association for Computational Linguistics, 2007.
+
+[8] Neural-based mt
+Rico Sennrich, Barry Haddow, and Alexandra Birch. Edinburgh neural machine translation systems for wmt 16. In Proceedings of the First Conference on Machine Translation (WMT), 2016.
+
+[9] Interpolation
+Rico Sennrich. Perplexity minimization for translation model domain adaptation in statistical machine translation. In Proceedings of EAMT, pages 539–549, 2012.
+
+
+
+
