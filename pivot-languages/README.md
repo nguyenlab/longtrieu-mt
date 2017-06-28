@@ -13,7 +13,7 @@ Asian Language Treebank
     
     ./scripts/decode.sh src_lang trg_lang
     
-# phrase pivot translation
+# phrase pivot translation: choosing pivot language
 
 changes pivot language at the pvt_lang
 
@@ -30,3 +30,12 @@ pivoting via more than one pivot language
       ./scripts/multi-pivot.sh src_lang trg_lang pvt1_lang pvt2_lang pvt3_lang
       
      for example: ./scripts/multi-pivot.sh ms vi en fil id
+
+# rectangulation
+
+pivoting via 2 pivot languages: source - pivot1 - pivot2 - target
+
+    ./scripts/rectangulation.sh ms vi id en
+    
+    
+    
