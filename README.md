@@ -46,18 +46,18 @@ The repository for my dissertation:
 
 # Corpora
 
-    1. Europarl
-    2. Asian Language Treebank
-    3. VLSP (Vietnamese)
-    4. Bibble
-    5. SETIMES2
-    6. WMT datasets
-    7. IWSLT datasets
-    8. OPUS
-    9. TED talks
-    10. JRC-ACQUIS
-    11. Kyoto corpus (Japanese-English)
-    12. Wikipedia bilingual titles
+    1. Europarl (http://www.statmt.org/europarl/)
+    2. Asian Language Treebank (http://www2.nict.go.jp/astrec-att/member/mutiyama/ALT/)
+    3. VLSP (Vietnamese) (https://vlsp.hpda.vn/demo/?&lang=en)
+    4. Bibble (http://homepages.inf.ed.ac.uk/s0787820/bible/)
+    5. SETIMES2 (http://opus.lingfil.uu.se/SETIMES2.php)
+    6. WMT datasets (http://www.statmt.org/wmt17/translation-task.html)
+    7. IWSLT datasets (https://sites.google.com/site/iwsltevaluation2015/mt-track, https://sites.google.com/site/iwsltevaluation2017/TED-tasks)
+    8. OPUS (http://opus.lingfil.uu.se/)
+    9. TED talks (https://wit3.fbk.eu/)
+    10. JRC-ACQUIS (http://optima.jrc.it/Acquis/index_2.2.html)
+    11. Kyoto corpus (Japanese-English) (http://www.phontron.com/kftt/)
+    12. Wikipedia bilingual titles ()
 
 # References
 
